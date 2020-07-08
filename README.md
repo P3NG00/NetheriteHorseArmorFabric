@@ -9,5 +9,11 @@ Add the ability to smith together some Netherite Horse Armor!
 
 [Issue Report](https://github.com/P3NG00/NetheriteHorseArmorFabric/issues)
 
+![Beautiful Stallion](https://i.imgur.com/MWveioW.png)
+
+![Crafting Recipe](https://i.imgur.com/h01ZEhS.png)
+
+![Nether Screenshot](https://i.imgur.com/uLpK7I9.png)
+
 ## License
 GNU_GPLv3
