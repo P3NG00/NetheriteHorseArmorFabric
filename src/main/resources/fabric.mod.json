@@ -1,0 +1,38 @@
+{
+  "schemaVersion": 1,
+  "id": "netheritehorsearmor",
+  "version": "${version}",
+
+  "name": "Netherite Horse Armor",
+  "description": "Adds Netherite Horse Armor",
+  "authors": [
+    "P3NG00",
+    "ConfusedGryphon"
+  ],
+  "contact": {
+    "homepage": "https://www.curseforge.com/minecraft/mc-mods/netherite-horse-armor",
+    "sources": "https://github.com/P3NG00/NetheriteHorseArmor",
+    "issues": "https://github.com/P3NG00/NetheriteHorseArmor/issues"
+  },
+
+  "license": "GNU GPLv3",
+  "icon": "assets/netheritehorsearmor/icon.png",
+
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "com.p3ng00.netheritehorsearmor.NetheriteHorseArmor"
+    ]
+  },
+  "mixins": [
+  ],
+
+  "depends": {
+    "fabricloader": ">=0.8.9",
+    "fabric": "*",
+    "minecraft": "1.16.x"
+  },
+  "suggests": {
+    "flamingo": "*"
+  }
+}
