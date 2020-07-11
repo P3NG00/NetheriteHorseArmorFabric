@@ -16,4 +16,4 @@ Add the ability to smith together some Netherite Horse Armor!
 ![Nether Screenshot](https://i.imgur.com/uLpK7I9.png)
 
 ## License
-GNU_GPLv3
+This template is available under the CC0 license. Feel free to learn from it and incorporate it in your own projects.
