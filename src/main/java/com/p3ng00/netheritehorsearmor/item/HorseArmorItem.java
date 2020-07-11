@@ -9,7 +9,7 @@ public class HorseArmorItem extends net.minecraft.item.HorseArmorItem {
 
     public HorseArmorItem(int bonus, String name, Settings settings) {
         super(bonus, name, settings);
-        texture = new Identifier(NetheriteHorseArmor.MODID, getEntityTexture().getPath());
+        texture = new Identifier(NetheriteHorseArmor.MODID, super.getEntityTexture().getPath());
     }
 
     @Override

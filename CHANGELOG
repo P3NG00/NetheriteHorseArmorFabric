@@ -3,5 +3,6 @@ Netherite Horse Armor (Fabric)
 v0.0.0
 + Added Netherite Horse Armor
 
-v0.1.0
+v0.1.1
 + Added Netherite Horse Armor to the "minecraft:bastion_treasure" loot table (3 chances, 25% each)
+* Fixed crash on launch
