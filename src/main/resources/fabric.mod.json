@@ -14,7 +14,7 @@
     "issues": "https://github.com/P3NG00/NetheriteHorseArmor/issues"
   },
   "license": "MIT",
-  "icon": "assets/netheritehorsearmor/icon.png",
+  "icon": "icon.png",
   "environment": "*",
   "entrypoints": {
     "main": [
