@@ -1,0 +1,4 @@
+com/p3ng00/netheritehorsearmor/item/HorseArmorItem.java
+ com.p3ng00.netheritehorsearmor.item.HorseArmorItem
+com/p3ng00/netheritehorsearmor/NetheriteHorseArmor.java
+ com.p3ng00.netheritehorsearmor.NetheriteHorseArmor
