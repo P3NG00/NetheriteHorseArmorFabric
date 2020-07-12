@@ -19,6 +19,9 @@
   "entrypoints": {
     "main": [
       "com.p3ng00.netheritehorsearmor.NetheriteHorseArmor"
+    ],
+    "modmenu": [
+      "com.p3ng00.netheritehorsearmor.NetheriteHorseArmorModMenu"
     ]
   },
   "depends": {
