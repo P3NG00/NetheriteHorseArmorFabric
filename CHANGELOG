@@ -4,5 +4,10 @@ v0.0.0
 + Added Netherite Horse Armor
 
 v0.1.1
-+ Added Netherite Horse Armor to the "minecraft:bastion_treasure" loot table (3 chances, 25% each)
++ Added Netherite Horse Armor to the "minecraft:bastion_treasure" loot table (3 chances, 25% chance)
 * Fixed crash on launch
+
+v0.2.0
++ Added Netherite Horse Armor to the "minecraft:ruined_portal" loot table (1 chance, 50% chance)
+* Changed crafting recipe, now takes 3 Netherite Ingots in a Crafting Table
+* Added shadow to mod icon
