@@ -19,9 +19,9 @@ public class NetheriteHorseArmorModMenu implements ModMenuApi {
     @Override
     public ConfigScreenFactory<?> getModConfigScreenFactory() {
         return parent -> {
-            ConfigBuilder builder = ConfigBuilder.create().setParentScreen(parent).setTitle(createTranslatableText("title")).setSavingRunnable(Config::save);
+            ConfigBuilder builder = ConfigBuilder.create().setParentScreen(parent).setTitle(createTranslatableText("title")).setSavingRunnable(Config::save).setTransparentBackground(true);
             ConfigCategory category = builder.getOrCreateCategory(createTranslatableText("category"));
-            for (TooltipListEntry<?> entry : new TooltipListEntry<?>[] {
+            for (TooltipListEntry<?> entry : new TooltipListEntry<?>[]{
                     builder.entryBuilder().startBooleanToggle(createTranslatableText("netherite_provides_fire_resistance_like_water_breathing"), OPTION_GIVE_TEMP_FIRE_RESIST.value).setSaveConsumer(OPTION_GIVE_TEMP_FIRE_RESIST::set).setDefaultValue(OPTION_GIVE_TEMP_FIRE_RESIST.defaultValue).build(),
                     builder.entryBuilder().startIntSlider(createTranslatableText("bastion_treasure_amount"), OPTION_BASTION_TREASURE_AMOUNT.value, 0, 5).setSaveConsumer(OPTION_BASTION_TREASURE_AMOUNT::set).setDefaultValue(OPTION_BASTION_TREASURE_AMOUNT.defaultValue).build(),
                     builder.entryBuilder().startFloatField(createTranslatableText("bastion_treasure_chance"), OPTION_BASTION_TREASURE_CHANCE.value).setSaveConsumer(OPTION_BASTION_TREASURE_CHANCE::set).setDefaultValue(OPTION_BASTION_TREASURE_CHANCE.defaultValue).build(),

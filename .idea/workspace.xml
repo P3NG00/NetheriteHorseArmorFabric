@@ -19,34 +19,9 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="cddf60d5-d7c1-4e07-8627-03a81a1cefc6" name="Default Changelist" comment="added configuration">
-      <change beforePath="$PROJECT_DIR$/.gradle/6.1.1/executionHistory/executionHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.1.1/executionHistory/executionHistory.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/6.1.1/executionHistory/executionHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.1.1/executionHistory/executionHistory.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/6.1.1/fileContent/annotation-processors.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.1.1/fileContent/annotation-processors.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/6.1.1/fileContent/fileContent.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.1.1/fileContent/fileContent.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/6.1.1/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.1.1/fileHashes/fileHashes.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/6.1.1/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.1.1/fileHashes/fileHashes.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/6.1.1/fileHashes/resourceHashesCache.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.1.1/fileHashes/resourceHashesCache.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/6.1.1/javaCompile/classAnalysis.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.1.1/javaCompile/classAnalysis.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/6.1.1/javaCompile/jarAnalysis.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.1.1/javaCompile/jarAnalysis.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/6.1.1/javaCompile/javaCompile.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.1.1/javaCompile/javaCompile.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/6.1.1/javaCompile/taskHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.1.1/javaCompile/taskHistory.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/checksums/checksums.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/checksums/checksums.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/checksums/md5-checksums.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/checksums/md5-checksums.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/checksums/sha1-checksums.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/checksums/sha1-checksums.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CHANGELOG" beforeDir="false" afterPath="$PROJECT_DIR$/CHANGELOG" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/p3ng00/netheritehorsearmor/NetheriteHorseArmor.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/com/p3ng00/netheritehorsearmor/NetheriteHorseArmor.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/resources/main/assets/netheritehorsearmor/lang/en_us.json" beforeDir="false" afterPath="$PROJECT_DIR$/build/resources/main/assets/netheritehorsearmor/lang/en_us.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/resources/main/fabric.mod.json" beforeDir="false" afterPath="$PROJECT_DIR$/build/resources/main/fabric.mod.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gradle.properties" beforeDir="false" afterPath="$PROJECT_DIR$/gradle.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/p3ng00/netheritehorsearmor/Config.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/p3ng00/netheritehorsearmor/Config.java" afterDir="false" />
+    <list default="true" id="cddf60d5-d7c1-4e07-8627-03a81a1cefc6" name="Default Changelist" comment="finishing mod menu configuration">
       <change beforePath="$PROJECT_DIR$/src/main/java/com/p3ng00/netheritehorsearmor/NetheriteHorseArmor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/p3ng00/netheritehorsearmor/NetheriteHorseArmor.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/p3ng00/netheritehorsearmor/NetheriteHorseArmorModMenu.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/p3ng00/netheritehorsearmor/NetheriteHorseArmorModMenu.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/assets/netheritehorsearmor/lang/en_us.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/assets/netheritehorsearmor/lang/en_us.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/fabric.mod.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/fabric.mod.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/p3ng00/netheritehorsearmor/item/HorseArmorItem.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/p3ng00/netheritehorsearmor/item/NetheriteHorseArmorItem.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -235,7 +210,14 @@
       <option name="project" value="LOCAL" />
       <updated>1594601456863</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="finishing mod menu configuration">
+      <created>1594609067119</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1594609067119</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -254,17 +236,18 @@
     <MESSAGE value="icon shadow" />
     <MESSAGE value="commit" />
     <MESSAGE value="added configuration" />
-    <option name="LAST_COMMIT_MESSAGE" value="added configuration" />
+    <MESSAGE value="finishing mod menu configuration" />
+    <option name="LAST_COMMIT_MESSAGE" value="finishing mod menu configuration" />
   </component>
   <component name="WindowStateProjectService">
     <state x="414" y="195" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1594573525164">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
     <state x="414" y="195" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1920.1080/-1538.287.1538.900@0.0.1920.1080" timestamp="1594573525164" />
-    <state x="765" y="246" key="#com.intellij.ide.util.MemberChooser" timestamp="1594605386185">
+    <state x="765" y="246" key="#com.intellij.ide.util.MemberChooser" timestamp="1594609291299">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state x="765" y="246" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1080/-1538.287.1538.900@0.0.1920.1080" timestamp="1594605386185" />
+    <state x="765" y="246" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1080/-1538.287.1538.900@0.0.1920.1080" timestamp="1594609291299" />
     <state x="802" y="506" key="#com.intellij.refactoring.move.moveMembers.MoveMembersDialog" timestamp="1594592219144">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
@@ -277,42 +260,46 @@
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
     <state x="666" y="281" key="FileChooserDialogImpl/0.0.1920.1080/-1538.287.1538.900@0.0.1920.1080" timestamp="1594606825818" />
-    <state width="1877" height="336" key="GridCell.Tab.0.bottom" timestamp="1594608976072">
+    <state width="1877" height="295" key="GridCell.Tab.0.bottom" timestamp="1594609121568">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state width="1877" height="336" key="GridCell.Tab.0.bottom/0.0.1920.1080/-1538.287.1538.900@0.0.1920.1080" timestamp="1594608976072" />
-    <state width="1877" height="336" key="GridCell.Tab.0.center" timestamp="1594608976072">
+    <state width="1877" height="295" key="GridCell.Tab.0.bottom/0.0.1920.1080/-1538.287.1538.900@0.0.1920.1080" timestamp="1594609121568" />
+    <state width="1877" height="295" key="GridCell.Tab.0.center" timestamp="1594609121567">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state width="1877" height="336" key="GridCell.Tab.0.center/0.0.1920.1080/-1538.287.1538.900@0.0.1920.1080" timestamp="1594608976072" />
-    <state width="1877" height="336" key="GridCell.Tab.0.left" timestamp="1594608976071">
+    <state width="1877" height="295" key="GridCell.Tab.0.center/0.0.1920.1080/-1538.287.1538.900@0.0.1920.1080" timestamp="1594609121567" />
+    <state width="1877" height="295" key="GridCell.Tab.0.left" timestamp="1594609121567">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state width="1877" height="336" key="GridCell.Tab.0.left/0.0.1920.1080/-1538.287.1538.900@0.0.1920.1080" timestamp="1594608976071" />
-    <state width="1877" height="336" key="GridCell.Tab.0.right" timestamp="1594608976072">
+    <state width="1877" height="295" key="GridCell.Tab.0.left/0.0.1920.1080/-1538.287.1538.900@0.0.1920.1080" timestamp="1594609121567" />
+    <state width="1877" height="295" key="GridCell.Tab.0.right" timestamp="1594609121567">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state width="1877" height="336" key="GridCell.Tab.0.right/0.0.1920.1080/-1538.287.1538.900@0.0.1920.1080" timestamp="1594608976072" />
-    <state width="1877" height="336" key="GridCell.Tab.1.bottom" timestamp="1594608975998">
+    <state width="1877" height="295" key="GridCell.Tab.0.right/0.0.1920.1080/-1538.287.1538.900@0.0.1920.1080" timestamp="1594609121567" />
+    <state width="1877" height="336" key="GridCell.Tab.1.bottom" timestamp="1594609117499">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state width="1877" height="336" key="GridCell.Tab.1.bottom/0.0.1920.1080/-1538.287.1538.900@0.0.1920.1080" timestamp="1594608975998" />
-    <state width="1877" height="336" key="GridCell.Tab.1.center" timestamp="1594608975998">
+    <state width="1877" height="336" key="GridCell.Tab.1.bottom/0.0.1920.1080/-1538.287.1538.900@0.0.1920.1080" timestamp="1594609117499" />
+    <state width="1877" height="336" key="GridCell.Tab.1.center" timestamp="1594609117499">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state width="1877" height="336" key="GridCell.Tab.1.center/0.0.1920.1080/-1538.287.1538.900@0.0.1920.1080" timestamp="1594608975998" />
-    <state width="1877" height="336" key="GridCell.Tab.1.left" timestamp="1594608975998">
+    <state width="1877" height="336" key="GridCell.Tab.1.center/0.0.1920.1080/-1538.287.1538.900@0.0.1920.1080" timestamp="1594609117499" />
+    <state width="1877" height="336" key="GridCell.Tab.1.left" timestamp="1594609117499">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state width="1877" height="336" key="GridCell.Tab.1.left/0.0.1920.1080/-1538.287.1538.900@0.0.1920.1080" timestamp="1594608975998" />
-    <state width="1877" height="336" key="GridCell.Tab.1.right" timestamp="1594608975998">
+    <state width="1877" height="336" key="GridCell.Tab.1.left/0.0.1920.1080/-1538.287.1538.900@0.0.1920.1080" timestamp="1594609117499" />
+    <state width="1877" height="336" key="GridCell.Tab.1.right" timestamp="1594609117499">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state width="1877" height="336" key="GridCell.Tab.1.right/0.0.1920.1080/-1538.287.1538.900@0.0.1920.1080" timestamp="1594608975998" />
+    <state width="1877" height="336" key="GridCell.Tab.1.right/0.0.1920.1080/-1538.287.1538.900@0.0.1920.1080" timestamp="1594609117499" />
     <state x="440" y="114" key="SettingsEditor" timestamp="1594606826541">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
     <state x="440" y="114" key="SettingsEditor/0.0.1920.1080/-1538.287.1538.900@0.0.1920.1080" timestamp="1594606826541" />
+    <state x="552" y="273" key="Vcs.Push.Dialog.v2" timestamp="1594609104362">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state x="552" y="273" key="Vcs.Push.Dialog.v2/0.0.1920.1080/-1538.287.1538.900@0.0.1920.1080" timestamp="1594609104362" />
     <state x="664" y="431" key="com.intellij.jarRepository.RepositoryAttachDialog-DOWNLOAD" timestamp="1594579042452">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
