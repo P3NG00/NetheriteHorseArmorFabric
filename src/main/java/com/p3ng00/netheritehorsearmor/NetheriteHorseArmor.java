@@ -33,10 +33,10 @@ public class NetheriteHorseArmor implements ModInitializer {
         LootTableLoadingCallback.EVENT.register(((resourceManager, lootManager, identifier, fabricLootSupplierBuilder, lootTableSetter) -> {
             switch (identifier.toString()) {
                 case "minecraft:chests/bastion_treasure":   // Minecraft's Bation Treasure
-                    fabricLootSupplierBuilder.withPool(FabricLootPoolBuilder.builder().rolls(BinomialLootTableRange.create(3, 0.25f)).withEntry(ItemEntry.builder(NETHERITE_HORSE_ARMOR).build()).build());
+                    fabricLootSupplierBuilder.withPool(FabricLootPoolBuilder.builder().rolls(BinomialLootTableRange.create(Config.OPTION_BASTION_TREASURE_AMOUNT.value, Config.OPTION_BASTION_TREASURE_CHANCE.value)).withEntry(ItemEntry.builder(NETHERITE_HORSE_ARMOR).build()).build());
                     break;
                 case "minecraft:chests/ruined_portal":      // Minecraft's Ruined Portal
-                    fabricLootSupplierBuilder.withPool(FabricLootPoolBuilder.builder().rolls(BinomialLootTableRange.create(2, 0.1f)).withEntry(ItemEntry.builder(NETHERITE_HORSE_ARMOR).build()).build());
+                    fabricLootSupplierBuilder.withPool(FabricLootPoolBuilder.builder().rolls(BinomialLootTableRange.create(Config.OPTION_RUINED_PORTAL_AMOUNT.value, Config.OPTION_RUINED_PORTAL_CHANCE.value)).withEntry(ItemEntry.builder(NETHERITE_HORSE_ARMOR).build()).build());
                     break;
             }
         }));

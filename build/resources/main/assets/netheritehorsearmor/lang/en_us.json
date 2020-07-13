@@ -3,5 +3,9 @@
 
   "config.netheritehorsearmor.title": "Netherite Horse Armor",
   "config.netheritehorsearmor.category": "someone plz link me a screenshot of where this is supposed to be, cuz i cant find it",
-  "config.netheritehorsearmor.netherite_provides_fire_resistance_like_water_breathing": "Netherite Armor gives brief Fire Resistance"
+  "config.netheritehorsearmor.netherite_provides_fire_resistance_like_water_breathing": "Netherite Armor gives brief Fire Resistance",
+  "config.netheritehorsearmor.bastion_treasure_amount": "Bastion Treasure Amount (1 - 5)",
+  "config.netheritehorsearmor.bastion_treasure_chance": "Bastion Treasure Chance (0.0f - 1.0f)",
+  "config.netheritehorsearmor.ruined_portal_amount": "Ruined Portal Amount (1 - 5)",
+  "config.netheritehorsearmor.ruined_portal_chance": "Ruined Portal Chance (0.0f - 1.0f)"
 }

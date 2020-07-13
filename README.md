@@ -1,5 +1,8 @@
-# Netherite Horse Armor Mod
-Add the ability to smith together some Netherite Horse Armor!
+Isn't there something we're missing in 1.16?
+
+This mod adds the ability to smith Diamond Horse Armor and a Netherite Ingot into...
+
+#Netherite Horse Armor
 
 [Downloads](https://www.curseforge.com/minecraft/mc-mods/netherite-horse-armor/files)
 
@@ -16,8 +19,6 @@ Add the ability to smith together some Netherite Horse Armor!
 ![Nether Screenshot](https://i.imgur.com/uLpK7I9.png)
 
 ## MIT License
-MIT License
-
 Copyright (c) 2020 Bryant Finnern
 
 Permission is hereby granted, free of charge, to any person obtaining a copy

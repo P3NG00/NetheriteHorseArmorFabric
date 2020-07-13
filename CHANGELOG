@@ -1,4 +1,4 @@
-Netherite Horse Armor (Fabric)
+Netherite Horse Armor Mod (Fabric)
 
 v0.0.0
 + Added Netherite Horse Armor
@@ -9,5 +9,6 @@ v0.1.1
 
 v0.2.0
 + Added Netherite Horse Armor to the "minecraft:ruined_portal" loot table (2 chances, 10% chance each)
-+ Implemented Mod Menu Mod
++ Implemented configurable settings with Mod Menu mod
+* Updated links in "fabric.mod.json"
 * Added shadow to mod icon
