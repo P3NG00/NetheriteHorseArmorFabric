@@ -19,10 +19,7 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="cddf60d5-d7c1-4e07-8627-03a81a1cefc6" name="Default Changelist" comment="finishing mod menu configuration">
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/p3ng00/netheritehorsearmor/NetheriteHorseArmor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/p3ng00/netheritehorsearmor/NetheriteHorseArmor.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/p3ng00/netheritehorsearmor/item/HorseArmorItem.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/p3ng00/netheritehorsearmor/item/NetheriteHorseArmorItem.java" afterDir="false" />
-    </list>
+    <list default="true" id="cddf60d5-d7c1-4e07-8627-03a81a1cefc6" name="Default Changelist" comment="cleaned up" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -105,7 +102,7 @@
       <recent name="C:\Users\Bryant\Documents\IntelliJ Projects\NetheriteHorseArmorFabric\src\main\resources" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Minecraft Client">
+  <component name="RunManager" selected="Gradle.NetheriteHorseArmorFabric [build]">
     <configuration name="NetheriteHorseArmorFabric [build]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
@@ -217,7 +214,14 @@
       <option name="project" value="LOCAL" />
       <updated>1594609067119</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="cleaned up">
+      <created>1594609614773</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1594609614773</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -237,7 +241,8 @@
     <MESSAGE value="commit" />
     <MESSAGE value="added configuration" />
     <MESSAGE value="finishing mod menu configuration" />
-    <option name="LAST_COMMIT_MESSAGE" value="finishing mod menu configuration" />
+    <MESSAGE value="cleaned up" />
+    <option name="LAST_COMMIT_MESSAGE" value="cleaned up" />
   </component>
   <component name="WindowStateProjectService">
     <state x="414" y="195" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1594573525164">
@@ -260,38 +265,38 @@
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
     <state x="666" y="281" key="FileChooserDialogImpl/0.0.1920.1080/-1538.287.1538.900@0.0.1920.1080" timestamp="1594606825818" />
-    <state width="1877" height="295" key="GridCell.Tab.0.bottom" timestamp="1594609121568">
+    <state width="1877" height="336" key="GridCell.Tab.0.bottom" timestamp="1594609514484">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state width="1877" height="295" key="GridCell.Tab.0.bottom/0.0.1920.1080/-1538.287.1538.900@0.0.1920.1080" timestamp="1594609121568" />
-    <state width="1877" height="295" key="GridCell.Tab.0.center" timestamp="1594609121567">
+    <state width="1877" height="336" key="GridCell.Tab.0.bottom/0.0.1920.1080/-1538.287.1538.900@0.0.1920.1080" timestamp="1594609514484" />
+    <state width="1877" height="336" key="GridCell.Tab.0.center" timestamp="1594609514484">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state width="1877" height="295" key="GridCell.Tab.0.center/0.0.1920.1080/-1538.287.1538.900@0.0.1920.1080" timestamp="1594609121567" />
-    <state width="1877" height="295" key="GridCell.Tab.0.left" timestamp="1594609121567">
+    <state width="1877" height="336" key="GridCell.Tab.0.center/0.0.1920.1080/-1538.287.1538.900@0.0.1920.1080" timestamp="1594609514484" />
+    <state width="1877" height="336" key="GridCell.Tab.0.left" timestamp="1594609514484">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state width="1877" height="295" key="GridCell.Tab.0.left/0.0.1920.1080/-1538.287.1538.900@0.0.1920.1080" timestamp="1594609121567" />
-    <state width="1877" height="295" key="GridCell.Tab.0.right" timestamp="1594609121567">
+    <state width="1877" height="336" key="GridCell.Tab.0.left/0.0.1920.1080/-1538.287.1538.900@0.0.1920.1080" timestamp="1594609514484" />
+    <state width="1877" height="336" key="GridCell.Tab.0.right" timestamp="1594609514484">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state width="1877" height="295" key="GridCell.Tab.0.right/0.0.1920.1080/-1538.287.1538.900@0.0.1920.1080" timestamp="1594609121567" />
-    <state width="1877" height="336" key="GridCell.Tab.1.bottom" timestamp="1594609117499">
+    <state width="1877" height="336" key="GridCell.Tab.0.right/0.0.1920.1080/-1538.287.1538.900@0.0.1920.1080" timestamp="1594609514484" />
+    <state width="1877" height="336" key="GridCell.Tab.1.bottom" timestamp="1594609514397">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state width="1877" height="336" key="GridCell.Tab.1.bottom/0.0.1920.1080/-1538.287.1538.900@0.0.1920.1080" timestamp="1594609117499" />
-    <state width="1877" height="336" key="GridCell.Tab.1.center" timestamp="1594609117499">
+    <state width="1877" height="336" key="GridCell.Tab.1.bottom/0.0.1920.1080/-1538.287.1538.900@0.0.1920.1080" timestamp="1594609514397" />
+    <state width="1877" height="336" key="GridCell.Tab.1.center" timestamp="1594609514397">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state width="1877" height="336" key="GridCell.Tab.1.center/0.0.1920.1080/-1538.287.1538.900@0.0.1920.1080" timestamp="1594609117499" />
-    <state width="1877" height="336" key="GridCell.Tab.1.left" timestamp="1594609117499">
+    <state width="1877" height="336" key="GridCell.Tab.1.center/0.0.1920.1080/-1538.287.1538.900@0.0.1920.1080" timestamp="1594609514397" />
+    <state width="1877" height="336" key="GridCell.Tab.1.left" timestamp="1594609514397">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state width="1877" height="336" key="GridCell.Tab.1.left/0.0.1920.1080/-1538.287.1538.900@0.0.1920.1080" timestamp="1594609117499" />
-    <state width="1877" height="336" key="GridCell.Tab.1.right" timestamp="1594609117499">
+    <state width="1877" height="336" key="GridCell.Tab.1.left/0.0.1920.1080/-1538.287.1538.900@0.0.1920.1080" timestamp="1594609514397" />
+    <state width="1877" height="336" key="GridCell.Tab.1.right" timestamp="1594609514397">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state width="1877" height="336" key="GridCell.Tab.1.right/0.0.1920.1080/-1538.287.1538.900@0.0.1920.1080" timestamp="1594609117499" />
+    <state width="1877" height="336" key="GridCell.Tab.1.right/0.0.1920.1080/-1538.287.1538.900@0.0.1920.1080" timestamp="1594609514397" />
     <state x="440" y="114" key="SettingsEditor" timestamp="1594606826541">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>

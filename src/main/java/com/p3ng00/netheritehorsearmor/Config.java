@@ -13,7 +13,7 @@ class Config {
     private static final File CONFIG = new File(MinecraftClient.getInstance().runDirectory + "/config/" + NetheriteHorseArmor.NETHERITE_HORSE_ARMOR_ID.getPath() + ".txt");
     private static final Properties PROPERTIES = new Properties();
 
-    static final Option<Boolean> OPTION_GIVE_TEMP_FIRE_RESIST = new Option<>(true, "giveTempFireResist");
+    static final Option<Boolean> OPTION_GIVE_TEMP_FIRE_RESIST = new Option<>(true, "giveTempFireResist"); // todo implement
     static final Option<Integer> OPTION_BASTION_TREASURE_AMOUNT = new Option<>(3, "bastionTreasureAmount");
     static final Option<Float> OPTION_BASTION_TREASURE_CHANCE = new Option<>(0.25f, "bastionTreasureChance");
     static final Option<Integer> OPTION_RUINED_PORTAL_AMOUNT = new Option<>(2, "ruinedPortalAmount");
