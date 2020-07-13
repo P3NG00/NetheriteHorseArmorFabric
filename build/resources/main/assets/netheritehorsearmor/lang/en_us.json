@@ -1,3 +1,7 @@
 {
-  "item.netheritehorsearmor.netherite_horse_armor": "Netherite Horse Armor"
+  "item.netheritehorsearmor.netherite_horse_armor": "Netherite Horse Armor",
+
+  "config.netheritehorsearmor.title": "Netherite Horse Armor",
+  "config.netheritehorsearmor.category": "someone plz link me a screenshot of where this is supposed to be, cuz i cant find it",
+  "config.netheritehorsearmor.netherite_provides_fire_resistance_like_water_breathing": "Netherite Armor gives brief Fire Resistance"
 }

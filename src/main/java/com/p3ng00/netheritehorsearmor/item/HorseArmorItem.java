@@ -5,7 +5,7 @@ import net.minecraft.util.Identifier;
 
 public class HorseArmorItem extends net.minecraft.item.HorseArmorItem {
 
-    private final Identifier texture;
+    private final Identifier texture; // todo make specific to netherite horse armor (not this variable, this whole class)
 
     public HorseArmorItem(int bonus, String name, Settings settings) {
         super(bonus, name, settings);
