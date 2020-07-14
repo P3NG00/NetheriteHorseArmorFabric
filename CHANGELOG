@@ -7,7 +7,7 @@ v0.1.1
 + Added Netherite Horse Armor to the "minecraft:bastion_treasure" loot table (3 chances, 25% chance each)
 * Fixed crash on launch
 
-v0.2.0*
+v0.2.0
 + Horses wearing Netherite Horse Armor get 10 seconds of Fire Resistance when not on fire
 + Players get up to 15 seconds of Fire Resistance when not on fire based on what Netherite Armor Pieces they have on (Helmet: +3 seconds, Chestplate: +5 seconds, Leggings: +4 seconds, Boots: +3 seconds)
 + Added Netherite Horse Armor to the "minecraft:ruined_portal" loot table (2 chances, 10% chance each)
