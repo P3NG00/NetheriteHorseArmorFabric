@@ -20,15 +20,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="cddf60d5-d7c1-4e07-8627-03a81a1cefc6" name="Default Changelist" comment="v0.2.0-r2.2">
-      <change beforePath="$PROJECT_DIR$/.gradle/6.1.1/executionHistory/executionHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.1.1/executionHistory/executionHistory.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/6.1.1/executionHistory/executionHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.1.1/executionHistory/executionHistory.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/6.1.1/fileContent/fileContent.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.1.1/fileContent/fileContent.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/6.1.1/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.1.1/fileHashes/fileHashes.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/6.1.1/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.1.1/fileHashes/fileHashes.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/6.1.1/javaCompile/classAnalysis.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.1.1/javaCompile/classAnalysis.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/6.1.1/javaCompile/javaCompile.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.1.1/javaCompile/javaCompile.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/libs/netherite_horse_armor-0.2.0-dev.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/libs/netherite_horse_armor-0.2.0-sources-dev.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/libs/netherite_horse_armor-0.2.0-sources.jar" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/gradle.properties" beforeDir="false" afterPath="$PROJECT_DIR$/gradle.properties" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -311,26 +305,26 @@
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
     <state x="666" y="281" key="FileChooserDialogImpl/0.0.1920.1080/-1538.287.1538.900@0.0.1920.1080" timestamp="1594683371452" />
-    <state width="1877" height="413" key="GridCell.Tab.0.bottom" timestamp="1594769539889">
+    <state width="1877" height="413" key="GridCell.Tab.0.bottom" timestamp="1594769644870">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
     <state width="1495" height="364" key="GridCell.Tab.0.bottom/0.0.1920.1080/-1538.287.1538.900@-1538.287.1538.900" timestamp="1594687316242" />
-    <state width="1877" height="413" key="GridCell.Tab.0.bottom/0.0.1920.1080/-1538.287.1538.900@0.0.1920.1080" timestamp="1594769539889" />
-    <state width="1877" height="413" key="GridCell.Tab.0.center" timestamp="1594769539889">
+    <state width="1877" height="413" key="GridCell.Tab.0.bottom/0.0.1920.1080/-1538.287.1538.900@0.0.1920.1080" timestamp="1594769644870" />
+    <state width="1877" height="413" key="GridCell.Tab.0.center" timestamp="1594769644870">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
     <state width="1495" height="364" key="GridCell.Tab.0.center/0.0.1920.1080/-1538.287.1538.900@-1538.287.1538.900" timestamp="1594687316242" />
-    <state width="1877" height="413" key="GridCell.Tab.0.center/0.0.1920.1080/-1538.287.1538.900@0.0.1920.1080" timestamp="1594769539889" />
-    <state width="1877" height="413" key="GridCell.Tab.0.left" timestamp="1594769539889">
+    <state width="1877" height="413" key="GridCell.Tab.0.center/0.0.1920.1080/-1538.287.1538.900@0.0.1920.1080" timestamp="1594769644870" />
+    <state width="1877" height="413" key="GridCell.Tab.0.left" timestamp="1594769644869">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
     <state width="1495" height="364" key="GridCell.Tab.0.left/0.0.1920.1080/-1538.287.1538.900@-1538.287.1538.900" timestamp="1594687316242" />
-    <state width="1877" height="413" key="GridCell.Tab.0.left/0.0.1920.1080/-1538.287.1538.900@0.0.1920.1080" timestamp="1594769539889" />
-    <state width="1877" height="413" key="GridCell.Tab.0.right" timestamp="1594769539889">
+    <state width="1877" height="413" key="GridCell.Tab.0.left/0.0.1920.1080/-1538.287.1538.900@0.0.1920.1080" timestamp="1594769644869" />
+    <state width="1877" height="413" key="GridCell.Tab.0.right" timestamp="1594769644870">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
     <state width="1495" height="364" key="GridCell.Tab.0.right/0.0.1920.1080/-1538.287.1538.900@-1538.287.1538.900" timestamp="1594687316242" />
-    <state width="1877" height="413" key="GridCell.Tab.0.right/0.0.1920.1080/-1538.287.1538.900@0.0.1920.1080" timestamp="1594769539889" />
+    <state width="1877" height="413" key="GridCell.Tab.0.right/0.0.1920.1080/-1538.287.1538.900@0.0.1920.1080" timestamp="1594769644870" />
     <state width="1877" height="311" key="GridCell.Tab.1.bottom" timestamp="1594695078406">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
