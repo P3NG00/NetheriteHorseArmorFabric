@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
   "id": "netheritehorsearmor",
-  "version": "0.2.0",
+  "version": "0.2.0-r2.2",
   "name": "Netherite Horse Armor",
   "description": "Adds Netherite Horse Armor",
   "authors": [
@@ -24,6 +24,9 @@
       "com.p3ng00.netheritehorsearmor.NetheriteHorseArmorModMenu"
     ]
   },
+  "mixins": [
+    "netheritehorsearmor.mixins.json"
+  ],
   "depends": {
     "fabricloader": ">=0.8.9",
     "fabric": "*",

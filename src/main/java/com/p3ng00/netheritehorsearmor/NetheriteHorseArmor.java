@@ -1,5 +1,6 @@
 package com.p3ng00.netheritehorsearmor;
 
+import com.p3ng00.netheritehorsearmor.item.NetheriteHorseArmorItem;
 import net.fabricmc.api.ModInitializer;
 import net.fabricmc.fabric.api.loot.v1.FabricLootPoolBuilder;
 import net.fabricmc.fabric.api.loot.v1.event.LootTableLoadingCallback;
@@ -17,12 +18,7 @@ public class NetheriteHorseArmor implements ModInitializer {
 
     // Netherite Horse Armor Item
     public static final Identifier NETHERITE_HORSE_ARMOR_ID = new Identifier(MODID, "netherite_horse_armor");
-    public static final Item NETHERITE_HORSE_ARMOR = new HorseArmorItem(15, "netherite", new Item.Settings().maxCount(1).group(ItemGroup.MISC).fireproof()) {
-        @Override
-        public Identifier getEntityTexture() {
-            return new Identifier(MODID, super.getEntityTexture().getPath());
-        }
-    };
+    public static final Item NETHERITE_HORSE_ARMOR = new NetheriteHorseArmorItem();
 
     @Override
     public void onInitialize() {
