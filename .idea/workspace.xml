@@ -19,33 +19,7 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="cddf60d5-d7c1-4e07-8627-03a81a1cefc6" name="Default Changelist" comment="v0.2.0-r2.2">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/p3ng00/netheritehorsearmor/item/NetheriteHorseArmorItem.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/p3ng00/netheritehorsearmor/mixin/HorseEntityMixin.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/p3ng00/netheritehorsearmor/mixin/PlayerEntityMixin.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/netheritehorsearmor.mixins.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/6.1.1/executionHistory/executionHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.1.1/executionHistory/executionHistory.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/6.1.1/executionHistory/executionHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.1.1/executionHistory/executionHistory.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/6.1.1/fileContent/fileContent.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.1.1/fileContent/fileContent.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/6.1.1/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.1.1/fileHashes/fileHashes.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/6.1.1/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.1.1/fileHashes/fileHashes.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/6.1.1/javaCompile/classAnalysis.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.1.1/javaCompile/classAnalysis.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/6.1.1/javaCompile/javaCompile.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.1.1/javaCompile/javaCompile.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/6.1.1/javaCompile/taskHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.1.1/javaCompile/taskHistory.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/outputFiles.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/outputFiles.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CHANGELOG" beforeDir="false" afterPath="$PROJECT_DIR$/CHANGELOG" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/p3ng00/netheritehorsearmor/NetheriteHorseArmor.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/com/p3ng00/netheritehorsearmor/NetheriteHorseArmor.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/resources/main/assets/netheritehorsearmor/lang/en_us.json" beforeDir="false" afterPath="$PROJECT_DIR$/build/resources/main/assets/netheritehorsearmor/lang/en_us.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/resources/main/fabric.mod.json" beforeDir="false" afterPath="$PROJECT_DIR$/build/resources/main/fabric.mod.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gradle.properties" beforeDir="false" afterPath="$PROJECT_DIR$/gradle.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/p3ng00/netheritehorsearmor/Config.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/p3ng00/netheritehorsearmor/Config.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/p3ng00/netheritehorsearmor/NetheriteHorseArmor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/p3ng00/netheritehorsearmor/NetheriteHorseArmor.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/p3ng00/netheritehorsearmor/NetheriteHorseArmorModMenu.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/p3ng00/netheritehorsearmor/NetheriteHorseArmorModMenu.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/assets/netheritehorsearmor/lang/en_us.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/assets/netheritehorsearmor/lang/en_us.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/fabric.mod.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/fabric.mod.json" afterDir="false" />
-    </list>
+    <list default="true" id="cddf60d5-d7c1-4e07-8627-03a81a1cefc6" name="Default Changelist" comment="v0.2.0-r2.2" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
