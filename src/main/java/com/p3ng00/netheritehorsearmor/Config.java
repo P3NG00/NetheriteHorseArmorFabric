@@ -1,5 +1,6 @@
 package com.p3ng00.netheritehorsearmor;
 
+import net.fabricmc.loader.api.FabricLoader;
 import net.minecraft.client.MinecraftClient;
 
 import java.io.File;
@@ -10,7 +11,7 @@ import java.util.Properties;
 
 class Config {
 
-    private static final File CONFIG = new File(MinecraftClient.getInstance().runDirectory + "/config/" + NetheriteHorseArmor.NETHERITE_HORSE_ARMOR_ID.getPath() + ".txt");
+    private static final File CONFIG = new File(FabricLoader.getInstance().getConfigDirectory(), NetheriteHorseArmor.NETHERITE_HORSE_ARMOR_ID.getPath() + ".txt");
     private static final Properties PROPERTIES = new Properties();
 
     static final Option<Boolean> OPTION_GIVE_TEMP_FIRE_RESIST = new Option<>(true, "giveTempFireResist"); // todo implement
@@ -73,7 +74,7 @@ class Config {
     static void save() {
         try {
             FileWriter writer = new FileWriter(CONFIG, false);
-            PROPERTIES.store(writer, null);
+            PROPERTIES.store(writer, "Test Bitch ♥ ~ P3"); // todo test
             writer.close();
         } catch (IOException e) {
             System.out.println("IO Error: Couldn't save settings for Netherite Horse Armor");
