@@ -1,5 +1,6 @@
 package com.p3ng00.netheritehorsearmor;
 
+import com.p3ng00.netheritehorsearmor.config.Config;
 import io.github.prospector.modmenu.api.ConfigScreenFactory;
 import io.github.prospector.modmenu.api.ModMenuApi;
 import me.shedaniel.clothconfig2.api.ConfigBuilder;
@@ -7,13 +8,13 @@ import me.shedaniel.clothconfig2.api.ConfigCategory;
 import me.shedaniel.clothconfig2.gui.entries.TooltipListEntry;
 import net.minecraft.text.TranslatableText;
 
-import static com.p3ng00.netheritehorsearmor.Config.*;
+import static com.p3ng00.netheritehorsearmor.config.Config.*;
 
 public class NetheriteHorseArmorModMenu implements ModMenuApi {
 
     @Override
     public String getModId() {
-        return NetheriteHorseArmor.MODID;
+        return NetheriteHorseArmorMain.MODID;
     }
 
     @Override

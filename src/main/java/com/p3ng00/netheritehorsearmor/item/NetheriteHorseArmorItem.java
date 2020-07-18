@@ -1,6 +1,6 @@
 package com.p3ng00.netheritehorsearmor.item;
 
-import com.p3ng00.netheritehorsearmor.NetheriteHorseArmor;
+import com.p3ng00.netheritehorsearmor.NetheriteHorseArmorMain;
 import net.minecraft.item.HorseArmorItem;
 import net.minecraft.item.ItemGroup;
 import net.minecraft.util.Identifier;
@@ -11,7 +11,7 @@ public class NetheriteHorseArmorItem extends HorseArmorItem {
 
     public NetheriteHorseArmorItem() {
         super(15, null, new Settings().maxCount(1).group(ItemGroup.MISC).fireproof());
-        TEXTURE = new Identifier(NetheriteHorseArmor.MODID, "textures/entity/horse/armor/horse_armor_netherite.png");
+        TEXTURE = new Identifier(NetheriteHorseArmorMain.MODID, "textures/entity/horse/armor/horse_armor_netherite.png");
     }
 
     @Override

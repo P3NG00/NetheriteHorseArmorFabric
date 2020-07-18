@@ -18,7 +18,7 @@
   "environment": "*",
   "entrypoints": {
     "main": [
-      "com.p3ng00.netheritehorsearmor.NetheriteHorseArmor"
+      "com.p3ng00.netheritehorsearmor.NetheriteHorseArmorMain"
     ],
     "modmenu": [
       "com.p3ng00.netheritehorsearmor.NetheriteHorseArmorModMenu"
@@ -33,6 +33,6 @@
     "minecraft": "1.16.x"
   },
   "suggests": {
-    "modmenu": "1.14.0+build.24"
+    "modmenu": "1.14.5+build.30"
   }
 }

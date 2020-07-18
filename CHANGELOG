@@ -15,3 +15,7 @@ v0.2.0
 * Fixed server crashing in launch
 * Updated links in "fabric.mod.json"
 * Added shadow to mod icon
+
+v0.3.0
+* Netherite Armor will now greatly reduce the amount of damage taken from fire/lava and the amount of time set on fire instead of giving Fire Resistance
+* Cleaned up code
