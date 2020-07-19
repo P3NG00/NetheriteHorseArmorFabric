@@ -23,4 +23,5 @@ v0.3.0
 v0.3.1
 * Properly implemented blocking damage from Magma Block
 * Renamed options with "fire resistance" to "burn resistance"
+* Reduced size of "icon.png"
 * Cleaned up code again. Quarantine's gettin' to me
