@@ -19,3 +19,7 @@ v0.2.0
 v0.3.0
 * Netherite Armor will now greatly reduce the amount of damage taken from fire/lava and the amount of time set on fire per armor piece instead of giving Fire Resistance
 * Cleaned up code
+
+v0.3.1
+* Properly implemented blocking damage from Magma Block
+* Cleaned up code again. Quarantine's gettin' to me

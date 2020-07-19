@@ -1,6 +1,6 @@
 package com.p3ng00.netheritehorsearmor.mixin;
 
-import com.p3ng00.netheritehorsearmor.util.Util;
+import com.p3ng00.netheritehorsearmor.Util;
 import net.minecraft.entity.EntityType;
 import net.minecraft.entity.LivingEntity;
 import net.minecraft.entity.damage.DamageSource;
