@@ -13,7 +13,7 @@ import net.minecraft.world.World;
 import org.spongepowered.asm.mixin.Mixin;
 
 @Mixin(MagmaBlock.class)
-public class MagmaBlockMixin extends Block {
+public abstract class MagmaBlockMixin extends Block {
 
     public MagmaBlockMixin(Settings settings) {
         super(settings);

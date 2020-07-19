@@ -23,7 +23,9 @@ dependencies {
     modApi "me.shedaniel.cloth:config-2:${project.cloth_config_version}"
     include "me.shedaniel.cloth:config-2:${project.cloth_config_version}"
 
-    implementation "com.github.P3NG00:P3Utils:${project.p3_util_commit}"
+    implementation("com.github.P3NG00:P3Utils:${project.p3_util_commit}") {
+        transitive(false)
+    }
 }
 
 processResources {

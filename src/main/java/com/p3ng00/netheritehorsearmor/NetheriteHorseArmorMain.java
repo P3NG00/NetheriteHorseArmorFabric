@@ -1,6 +1,7 @@
 package com.p3ng00.netheritehorsearmor;
 
 import com.p3ng00.netheritehorsearmor.item.NetheriteHorseArmorItem;
+import com.p3ng00.p3utils.P3Utils;
 import com.p3ng00.p3utils.config.Config;
 import net.fabricmc.api.ModInitializer;
 import net.fabricmc.fabric.api.loot.v1.FabricLootPoolBuilder;
@@ -23,6 +24,7 @@ public class NetheriteHorseArmorMain implements ModInitializer {
     // Netherite Horse Armor Item
     public static final Item NETHERITE_HORSE_ARMOR = new NetheriteHorseArmorItem();
 
+    // Config
     public static final Config CONFIG = new Config("netherite_horse_armor.txt", OPTIONS);
 
     @Override
@@ -42,9 +44,5 @@ public class NetheriteHorseArmorMain implements ModInitializer {
                     break;
             }
         }));
-    }
-
-    public static boolean shouldNotTakeFireDamage(Entity e) {
-        return !e.isOnFire() && e.world.getBlockState(e.getBlockPos().down()).getBlock() != Blocks.MAGMA_BLOCK;
     }
 }
