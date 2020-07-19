@@ -26,6 +26,7 @@ dependencies {
     implementation("com.github.P3NG00:P3Utils:${project.p3_util_commit}") {
         transitive(false)
     }
+    include "com.github.P3NG00:P3Utils:${project.p3_util_commit}"
 }
 
 processResources {
