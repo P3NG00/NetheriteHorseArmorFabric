@@ -1,13 +1,10 @@
 package com.p3ng00.netheritehorsearmor;
 
 import com.p3ng00.netheritehorsearmor.item.NetheriteHorseArmorItem;
-import com.p3ng00.p3utils.P3Utils;
 import com.p3ng00.p3utils.config.Config;
 import net.fabricmc.api.ModInitializer;
 import net.fabricmc.fabric.api.loot.v1.FabricLootPoolBuilder;
 import net.fabricmc.fabric.api.loot.v1.event.LootTableLoadingCallback;
-import net.minecraft.block.Blocks;
-import net.minecraft.entity.Entity;
 import net.minecraft.item.Item;
 import net.minecraft.loot.BinomialLootTableRange;
 import net.minecraft.loot.entry.ItemEntry;

@@ -19,7 +19,7 @@ public abstract class MagmaBlockMixin extends Block {
         super(settings);
     }
 
-    public void onSteppedOn(World world, BlockPos pos, Entity entity) { // todo test
+    public void onSteppedOn(World world, BlockPos pos, Entity entity) {
         if (!entity.isFireImmune() && entity instanceof LivingEntity && !EnchantmentHelper.hasFrostWalker((LivingEntity)entity)) {
             float damage = 1.0f;
             for (ItemStack itemStack : entity.getArmorItems()) {
