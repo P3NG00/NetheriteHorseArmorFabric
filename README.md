@@ -4,13 +4,13 @@ This mod adds the ability to smith Diamond Horse Armor and a Netherite Ingot int
 
 # Netherite Horse Armor
 
-[Downloads](https://www.curseforge.com/minecraft/mc-mods/netherite-horse-armor/files)
+[<h3>Downloads</h3>](https://www.curseforge.com/minecraft/mc-mods/netherite-horse-armor/files)
 
-[CurseForge](https://www.curseforge.com/minecraft/mc-mods/netherite-horse-armor)
+[CurseForge (Mod Page)](https://www.curseforge.com/minecraft/mc-mods/netherite-horse-armor)
 
-[GitHub](https://github.com/P3NG00/NetheriteHorseArmorFabric)
+[GitHub (Source Code)](https://github.com/P3NG00/NetheriteHorseArmorFabric)
 
-[Issue Report](https://github.com/P3NG00/NetheriteHorseArmorFabric/issues)
+[<i>Report an Issue</i>](https://github.com/P3NG00/NetheriteHorseArmorFabric/issues)
 
 ![Beautiful Stallion](https://i.imgur.com/MWveioW.png)
 
