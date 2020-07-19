@@ -1,6 +1,4 @@
-Isn't there something we're missing in 1.16?
-
-This mod adds the ability to smith Diamond Horse Armor and a Netherite Ingot into...
+Isn't there something we're missing with the new Netherite and whatnot?
 
 # Netherite Horse Armor
 
