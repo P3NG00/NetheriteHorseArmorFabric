@@ -24,7 +24,7 @@ public abstract class MagmaBlockMixin extends Block {
             float damage = 1.0f;
             for (ItemStack itemStack : entity.getArmorItems()) {
                 try {
-                    damage -= Util.NETHERITE_ARMOR_EFFECT_LENGTH_TABLE.get(itemStack.getItem()) * 0.06;
+                    damage -= Util.NETHERITE_ARMOR_EFFECT_LENGTH_TABLE.get(itemStack.getItem()) * 0.01;
                 } catch (NullPointerException ignored) {}
             }
             entity.damage(DamageSource.HOT_FLOOR, damage);

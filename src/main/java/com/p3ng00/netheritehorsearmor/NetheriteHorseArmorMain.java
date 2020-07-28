@@ -22,7 +22,7 @@ public class NetheriteHorseArmorMain implements ModInitializer {
     public static final Item NETHERITE_HORSE_ARMOR = new NetheriteHorseArmorItem();
 
     // Config
-    public static final Config CONFIG = new Config("netherite_horse_armor.txt", OPTIONS);
+    public static final Config CONFIG = new Config("Netherite Horse Armor", "netherite_horse_armor.txt", OPTIONS);
 
     @Override
     public void onInitialize() {
@@ -34,10 +34,10 @@ public class NetheriteHorseArmorMain implements ModInitializer {
         LootTableLoadingCallback.EVENT.register(((resourceManager, lootManager, identifier, fabricLootSupplierBuilder, lootTableSetter) -> {
             switch (identifier.toString()) {
                 case "minecraft:chests/bastion_treasure":   // Minecraft's Bation Treasure
-                    fabricLootSupplierBuilder.withPool(FabricLootPoolBuilder.builder().rolls(BinomialLootTableRange.create(OPTION_BASTION_TREASURE_AMOUNT.value, OPTION_BASTION_TREASURE_CHANCE.value)).withEntry(ItemEntry.builder(NETHERITE_HORSE_ARMOR).build()).build());
+                    fabricLootSupplierBuilder.withPool(FabricLootPoolBuilder.builder().rolls(BinomialLootTableRange.create(OPTION_BASTION_TREASURE_AMOUNT.get(), OPTION_BASTION_TREASURE_CHANCE.get())).withEntry(ItemEntry.builder(NETHERITE_HORSE_ARMOR).build()).build());
                     break;
                 case "minecraft:chests/ruined_portal":      // Minecraft's Ruined Portal
-                    fabricLootSupplierBuilder.withPool(FabricLootPoolBuilder.builder().rolls(BinomialLootTableRange.create(OPTION_RUINED_PORTAL_AMOUNT.value, OPTION_RUINED_PORTAL_CHANCE.value)).withEntry(ItemEntry.builder(NETHERITE_HORSE_ARMOR).build()).build());
+                    fabricLootSupplierBuilder.withPool(FabricLootPoolBuilder.builder().rolls(BinomialLootTableRange.create(OPTION_RUINED_PORTAL_AMOUNT.get(), OPTION_RUINED_PORTAL_CHANCE.get())).withEntry(ItemEntry.builder(NETHERITE_HORSE_ARMOR).build()).build());
                     break;
             }
         }));

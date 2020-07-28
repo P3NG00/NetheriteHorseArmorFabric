@@ -3,10 +3,9 @@
   "id": "netheritehorsearmor",
   "version": "${version}",
   "name": "Netherite Horse Armor",
-  "description": "Adds Netherite Horse Armor",
+  "description": "Adds Netherite Horse Armor to the game! You can smith it at a Smithing Table using Diamond Horse Armor and a Netherite Ingot!",
   "authors": [
-    "P3NG00",
-    "ConfusedGryphon"
+    "P3NG00"
   ],
   "contact": {
     "homepage": "https://www.curseforge.com/minecraft/mc-mods/netherite-horse-armor",
@@ -28,7 +27,7 @@
     "netheritehorsearmor.mixins.json"
   ],
   "depends": {
-    "fabricloader": ">=0.8.9",
+    "fabricloader": ">=0.9.0",
     "fabric": "*",
     "minecraft": "1.16.x"
   },
