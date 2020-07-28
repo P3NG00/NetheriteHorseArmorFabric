@@ -11,11 +11,6 @@ import static com.p3ng00.netheritehorsearmor.Util.*;
 public class NetheriteHorseArmorModMenu implements ModMenuApi {
 
     @Override
-    public String getModId() {
-        return NetheriteHorseArmorMain.MODID;
-    }
-
-    @Override
     public ConfigScreenFactory<?> getModConfigScreenFactory() {
         return parent -> {
             ConfigBuilder builder = ConfigBuilder.create().setParentScreen(parent).setTitle(createTranslatableText("title")).setSavingRunnable(NetheriteHorseArmorMain.CONFIG::save).setTransparentBackground(true);
