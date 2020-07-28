@@ -10,7 +10,7 @@ Isn't there something we're missing with the new Netherite and whatnot?
 
 [<i>Report an Issue</i>](https://github.com/P3NG00/NetheriteHorseArmorFabric/issues)
 
-![Beautiful Stallion](https://i.imgur.com/MWveioW.png)
+![Beautiful Stallion](https://i.imgur.com/VownWLt.png)
 
 ![Crafting Recipe](https://i.imgur.com/h01ZEhS.png)
 
