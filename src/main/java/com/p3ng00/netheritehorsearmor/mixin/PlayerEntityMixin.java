@@ -21,9 +21,9 @@ public abstract class PlayerEntityMixin extends LivingEntity {
         if (!this.isFireImmune()) {
             int time = 0;
             for (ItemStack itemStack : getArmorItems()) {
-                try {
+                if (Util.NETHERITE_ARMOR_EFFECT_LENGTH_TABLE.containsKey(itemStack.getItem())) {
                     time += Util.NETHERITE_ARMOR_EFFECT_LENGTH_TABLE.get(itemStack.getItem());
-                } catch (NullPointerException ignored) {}
+                }
             }
             setOnFireFor(time == 0 ? 15 : 40 / time);
             damage(DamageSource.LAVA, time == 0 ? 4.0f : 10.0f / time);

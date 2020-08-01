@@ -4,8 +4,8 @@
   "config.netheritehorsearmor.title": "Netherite Horse Armor",
   "config.netheritehorsearmor.category": "General",
 
-  "config.netheritehorsearmor.netherite_fire_resist_horse": "Netherite Horse Armor gives burning resistance",
-  "config.netheritehorsearmor.netherite_fire_resist_player": "Netherite Armor gives player burning resistance",
+  "config.netheritehorsearmor.netherite_burn_resist_horse": "Netherite Horse Armor gives burning resistance",
+  "config.netheritehorsearmor.netherite_burn_resist_player": "Netherite Armor gives player burning resistance",
   "config.netheritehorsearmor.bastion_treasure_amount": "Bastion Treasure Amount (1 - 5)",
   "config.netheritehorsearmor.bastion_treasure_chance": "Bastion Treasure Chance (0.0f - 1.0f)",
   "config.netheritehorsearmor.ruined_portal_amount": "Ruined Portal Amount (1 - 5)",

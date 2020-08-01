@@ -27,6 +27,6 @@ public class NetheriteHorseArmorModMenu implements ModMenuApi {
     }
 
     private TranslatableText createTranslatableText(String path) {
-        return new TranslatableText(String.format("config.%s.%s", getModId(), path));
+        return new TranslatableText(String.format("config.%s.%s", NetheriteHorseArmorMain.MODID, path));
     }
 }

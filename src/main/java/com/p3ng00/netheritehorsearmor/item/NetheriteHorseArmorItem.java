@@ -10,7 +10,7 @@ public class NetheriteHorseArmorItem extends HorseArmorItem {
     private static Identifier TEXTURE;
 
     public NetheriteHorseArmorItem() {
-        super(15, null, new Settings().maxCount(1).group(ItemGroup.MISC).fireproof());
+        super(15, "lol ♥ :P", new Settings().maxCount(1).group(ItemGroup.MISC).fireproof());
         TEXTURE = new Identifier(NetheriteHorseArmorMain.MODID, "textures/entity/horse/armor/horse_armor_netherite.png");
     }
 

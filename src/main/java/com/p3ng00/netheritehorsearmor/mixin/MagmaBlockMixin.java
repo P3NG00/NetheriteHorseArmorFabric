@@ -23,9 +23,9 @@ public abstract class MagmaBlockMixin extends Block {
         if (!entity.isFireImmune() && entity instanceof LivingEntity && !EnchantmentHelper.hasFrostWalker((LivingEntity)entity)) {
             float damage = 1.0f;
             for (ItemStack itemStack : entity.getArmorItems()) {
-                try {
+                if (Util.NETHERITE_ARMOR_EFFECT_LENGTH_TABLE.containsKey(itemStack.getItem())) {
                     damage -= Util.NETHERITE_ARMOR_EFFECT_LENGTH_TABLE.get(itemStack.getItem()) * 0.01;
-                } catch (NullPointerException ignored) {}
+                }
             }
             entity.damage(DamageSource.HOT_FLOOR, damage);
         }

@@ -33,7 +33,7 @@ public class NetheriteHorseArmorMain implements ModInitializer {
         // Add Netherite Horse Armor to loot tables...
         LootTableLoadingCallback.EVENT.register(((resourceManager, lootManager, identifier, fabricLootSupplierBuilder, lootTableSetter) -> {
             switch (identifier.toString()) {
-                case "minecraft:chests/bastion_treasure":   // Minecraft's Bation Treasure
+                case "minecraft:chests/bastion_treasure":   // Minecraft's Bastion Treasure
                     fabricLootSupplierBuilder.withPool(FabricLootPoolBuilder.builder().rolls(BinomialLootTableRange.create(OPTION_BASTION_TREASURE_AMOUNT.get(), OPTION_BASTION_TREASURE_CHANCE.get())).withEntry(ItemEntry.builder(NETHERITE_HORSE_ARMOR).build()).build());
                     break;
                 case "minecraft:chests/ruined_portal":      // Minecraft's Ruined Portal

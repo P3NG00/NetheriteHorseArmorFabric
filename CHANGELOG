@@ -29,3 +29,7 @@ v0.3.1
 v0.3.2
 * Fixed damage from Magma Block not being blocked properly
 * Steam cleaned and polished code
+
+v0.3.3
+* Removed having to handle exceptions in PlayerEntity and MagmaBlock mixins
+* Fixed config option text not displaying correctly
