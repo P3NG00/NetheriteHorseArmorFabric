@@ -1,8 +1,10 @@
 {
   "item.netheritehorsearmor.netherite_horse_armor": "Netherite Horse Armor",
+  "item.netheritehorsearmor.enderite_horse_armor": "Enderite Horse Armor",
 
   "config.netheritehorsearmor.title": "Netherite Horse Armor",
-  "config.netheritehorsearmor.category": "General",
+
+  "config.netheritehorsearmor.category.general": "General",
 
   "config.netheritehorsearmor.netherite_burn_resist_horse": "Netherite Horse Armor gives burning resistance",
   "config.netheritehorsearmor.netherite_burn_resist_player": "Netherite Armor gives player burning resistance",

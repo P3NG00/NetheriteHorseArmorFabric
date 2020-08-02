@@ -14,7 +14,7 @@ public class NetheriteHorseArmorModMenu implements ModMenuApi {
     public ConfigScreenFactory<?> getModConfigScreenFactory() {
         return parent -> {
             ConfigBuilder builder = ConfigBuilder.create().setParentScreen(parent).setTitle(createTranslatableText("title")).setSavingRunnable(NetheriteHorseArmorMain.CONFIG::save).setTransparentBackground(true);
-            ConfigCategory category = builder.getOrCreateCategory(createTranslatableText("category"));
+            ConfigCategory category = builder.getOrCreateCategory(createTranslatableText("category.general"));
             TranslatableText requiresRestart = createTranslatableText("requires_restart");
             category.addEntry(builder.entryBuilder().startBooleanToggle(createTranslatableText("netherite_burn_resist_horse"), OPTION_NETHERITE_BURN_RESIST_HORSE.get()).setSaveConsumer(OPTION_NETHERITE_BURN_RESIST_HORSE::set).setDefaultValue(OPTION_NETHERITE_BURN_RESIST_HORSE::getDefaultValue).build());
             category.addEntry(builder.entryBuilder().startBooleanToggle(createTranslatableText("netherite_burn_resist_player"), OPTION_NETHERITE_BURN_RESIST_PLAYER.get()).setSaveConsumer(OPTION_NETHERITE_BURN_RESIST_PLAYER::set).setDefaultValue(OPTION_NETHERITE_BURN_RESIST_PLAYER::getDefaultValue).build());

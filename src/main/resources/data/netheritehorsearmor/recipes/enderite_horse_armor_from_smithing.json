@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:smithing",
+  "base": {
+    "item": "netheritehorsearmor:netherite_horse_armor"
+  },
+  "addition": {
+    "item": "enderitemod:enderite_ingot"
+  },
+  "result": {
+    "item": "netheritehorsearmor:enderite_horse_armor"
+  }
+}
