@@ -1,6 +1,6 @@
 package com.p3ng00.netheritehorsearmor;
 
-import com.p3ng00.netheritehorsearmor.item.NetheriteHorseArmorItem;
+import com.p3ng00.netheritehorsearmor.item.HorseArmorItem;
 import com.p3ng00.p3utils.config.Config;
 import net.fabricmc.api.ModInitializer;
 import net.fabricmc.fabric.api.loot.v1.FabricLootPoolBuilder;
@@ -19,7 +19,7 @@ public class NetheriteHorseArmorMain implements ModInitializer {
     public static final String MODID = "netheritehorsearmor";
 
     // Netherite Horse Armor Item
-    public static final Item NETHERITE_HORSE_ARMOR = new NetheriteHorseArmorItem();
+    public static final Item NETHERITE_HORSE_ARMOR = new HorseArmorItem(15, "netherite", new Item.Settings().fireproof());
 
     // Config
     public static final Config CONFIG = new Config("Netherite Horse Armor", "netherite_horse_armor.txt", OPTIONS);

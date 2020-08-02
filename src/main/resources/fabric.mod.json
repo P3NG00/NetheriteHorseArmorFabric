@@ -7,6 +7,9 @@
   "authors": [
     "P3NG00"
   ],
+  "contributors": [
+    "ConfusedGryphon (Netherite item & armor textures)"
+  ],
   "contact": {
     "homepage": "https://www.curseforge.com/minecraft/mc-mods/netherite-horse-armor",
     "sources": "https://github.com/P3NG00/NetheriteHorseArmorFabric",
@@ -33,5 +36,11 @@
   },
   "suggests": {
     "modmenu": "1.14.5+build.30"
+  },
+  "custom": {
+    "modupdater": {
+      "strategy": "curseforge",
+      "projectID": 394086
+    }
   }
 }
