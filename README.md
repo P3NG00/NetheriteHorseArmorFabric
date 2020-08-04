@@ -16,6 +16,8 @@ Isn't there something we're missing with the new Netherite and whatnot?
 
 ![Nether Screenshot](https://i.imgur.com/uLpK7I9.png)
 
+![Enderite Mod Support!](https://i.imgur.com/mH91T4b.png)
+
 ## MIT License
 Copyright (c) 2020 Bryant Finnern
 
