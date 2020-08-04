@@ -35,6 +35,6 @@ v0.3.3
 * Fixed config option text not displaying correctly
 
 v0.4.0
-+ Added support for Mod Updater mod
 + Added Enderite Horse Armor (when installed w/ Enderite Mod)
++ Added support for Mod Updater mod
 * Added more spacing to source code
