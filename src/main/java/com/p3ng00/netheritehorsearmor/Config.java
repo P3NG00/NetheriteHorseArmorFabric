@@ -10,7 +10,7 @@ import net.minecraft.item.Items;
 import java.util.HashMap;
 import java.util.Map;
 
-public abstract class Util {
+public abstract class Config {
 
     // Config
     public static final Option<Boolean> OPTION_NETHERITE_BURN_RESIST_HORSE = new BooleanOption("netheriteBurnResistHorse", true);
@@ -22,12 +22,16 @@ public abstract class Util {
 
     public static final Option<?>[] OPTIONS = {OPTION_NETHERITE_BURN_RESIST_HORSE, OPTION_NETHERITE_BURN_RESIST_PLAYER, OPTION_BASTION_TREASURE_AMOUNT, OPTION_BASTION_TREASURE_CHANCE, OPTION_RUINED_PORTAL_AMOUNT, OPTION_RUINED_PORTAL_CHANCE};
 
-    public static final Map<Item, Integer> NETHERITE_ARMOR_EFFECT_LENGTH_TABLE = new HashMap<>();
+    public static final com.p3ng00.p3utils.config.Config CONFIG = new com.p3ng00.p3utils.config.Config("Netherite Horse Armor", "netherite_horse_armor.txt", OPTIONS);
+
+    public static final Map<Item, Integer> NETHERITE_ARMOR_STAT_TABLE = new HashMap<>();
 
     static {
-        NETHERITE_ARMOR_EFFECT_LENGTH_TABLE.put(Items.NETHERITE_HELMET, 3);
-        NETHERITE_ARMOR_EFFECT_LENGTH_TABLE.put(Items.NETHERITE_CHESTPLATE, 5);
-        NETHERITE_ARMOR_EFFECT_LENGTH_TABLE.put(Items.NETHERITE_LEGGINGS, 4);
-        NETHERITE_ARMOR_EFFECT_LENGTH_TABLE.put(Items.NETHERITE_BOOTS, 3);
+
+        NETHERITE_ARMOR_STAT_TABLE.put(Items.NETHERITE_HELMET, 3);
+        NETHERITE_ARMOR_STAT_TABLE.put(Items.NETHERITE_CHESTPLATE, 5);
+        NETHERITE_ARMOR_STAT_TABLE.put(Items.NETHERITE_LEGGINGS, 4);
+        NETHERITE_ARMOR_STAT_TABLE.put(Items.NETHERITE_BOOTS, 3);
+
     }
 }

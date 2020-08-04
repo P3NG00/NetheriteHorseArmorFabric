@@ -1,6 +1,6 @@
 package com.p3ng00.netheritehorsearmor.mixin;
 
-import com.p3ng00.netheritehorsearmor.Util;
+import com.p3ng00.netheritehorsearmor.Config;
 import net.minecraft.block.Block;
 import net.minecraft.block.MagmaBlock;
 import net.minecraft.enchantment.EnchantmentHelper;
@@ -23,8 +23,8 @@ public abstract class MagmaBlockMixin extends Block {
         if (!entity.isFireImmune() && entity instanceof LivingEntity && !EnchantmentHelper.hasFrostWalker((LivingEntity)entity)) {
             float damage = 1.0f;
             for (ItemStack itemStack : entity.getArmorItems()) {
-                if (Util.NETHERITE_ARMOR_EFFECT_LENGTH_TABLE.containsKey(itemStack.getItem())) {
-                    damage -= Util.NETHERITE_ARMOR_EFFECT_LENGTH_TABLE.get(itemStack.getItem()) * 0.01;
+                if (Config.NETHERITE_ARMOR_STAT_TABLE.containsKey(itemStack.getItem())) {
+                    damage -= Config.NETHERITE_ARMOR_STAT_TABLE.get(itemStack.getItem()) * 0.01;
                 }
             }
             entity.damage(DamageSource.HOT_FLOOR, damage);

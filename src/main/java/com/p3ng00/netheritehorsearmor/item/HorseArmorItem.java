@@ -8,8 +8,8 @@ public class HorseArmorItem extends net.minecraft.item.HorseArmorItem {
 
     private final Identifier texture;
 
-    public HorseArmorItem(int bonus, String materialName, Settings settings) {
-        super(bonus, null, settings.maxCount(1).group(ItemGroup.MISC));
+    public HorseArmorItem(int bonus, String materialName) {
+        super(bonus, null, new Settings().maxCount(1).group(ItemGroup.MISC).fireproof());
         texture = new Identifier(NetheriteHorseArmorMain.MODID, String.format("textures/entity/horse/armor/horse_armor_%s.png", materialName));
     }
 

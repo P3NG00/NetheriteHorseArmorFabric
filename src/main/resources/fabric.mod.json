@@ -34,6 +34,9 @@
     "fabric": "*",
     "minecraft": "1.16.x"
   },
+  "recommends": {
+    "enderitemod": "1.0.3"
+  },
   "suggests": {
     "modmenu": "1.14.5+build.30"
   },
