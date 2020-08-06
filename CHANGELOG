@@ -38,3 +38,6 @@ v0.4.0
 + Added Enderite Horse Armor (when installed w/ Enderite Mod)
 + Added support for Mod Updater mod
 * Added more spacing to source code
+
+v0.4.1
++ If the Enderite Mod is not installed, Enderite Horse Armor will have a tooltip under it

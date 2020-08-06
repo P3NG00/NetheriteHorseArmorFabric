@@ -8,11 +8,10 @@ import net.fabricmc.loader.api.FabricLoader;
 import net.minecraft.item.Item;
 import net.minecraft.loot.BinomialLootTableRange;
 import net.minecraft.loot.entry.ItemEntry;
-import net.minecraft.util.Identifier;
-import net.minecraft.util.registry.Registry;
 import org.apache.logging.log4j.LogManager;
 
-import static com.p3ng00.netheritehorsearmor.Config.*;
+import static com.p3ng00.netheritehorsearmor.Settings.*;
+import static com.p3ng00.netheritehorsearmor.Util.register;
 
 public class NetheriteHorseArmorMain implements ModInitializer {
 
@@ -23,14 +22,21 @@ public class NetheriteHorseArmorMain implements ModInitializer {
     public static final Item NETHERITE_HORSE_ARMOR = new HorseArmorItem(15, "netherite");
     public static final Item ENDERITE_HORSE_ARMOR = new HorseArmorItem(20, "enderite");
 
+    // Compatibility
+    public static boolean isEnderiteModLoaded;
+
     @Override
     public void onInitialize() {
 
-        // Register Item
-        Registry.register(Registry.ITEM, new Identifier(MODID, "netherite_horse_armor"), NETHERITE_HORSE_ARMOR);
-        Registry.register(Registry.ITEM, new Identifier(MODID, "enderite_horse_armor"), ENDERITE_HORSE_ARMOR);
+        Util.modId = MODID;
 
-        if (!FabricLoader.getInstance().isModLoaded("enderitemod")) LogManager.getLogger().warn("'Enderite Mod' not installed. Ignore following errors relating to 'Enderite Mod'");
+        isEnderiteModLoaded = FabricLoader.getInstance().isModLoaded("enderitemod");
+
+        // Register Item
+        register("netherite_horse_armor", NETHERITE_HORSE_ARMOR);
+        register("enderite_horse_armor", ENDERITE_HORSE_ARMOR);
+
+        if (!isEnderiteModLoaded) LogManager.getLogger().warn("'Enderite Mod' not installed. Ignore following errors relating to 'Enderite Mod'");
 
         // Add Netherite Horse Armor to loot tables...
         LootTableLoadingCallback.EVENT.register(((resourceManager, lootManager, identifier, fabricLootSupplierBuilder, lootTableSetter) -> {

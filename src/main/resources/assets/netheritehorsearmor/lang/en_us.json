@@ -13,5 +13,8 @@
   "config.netheritehorsearmor.ruined_portal_amount": "Ruined Portal Amount (1 - 5)",
   "config.netheritehorsearmor.ruined_portal_chance": "Ruined Portal Chance (0.0f - 1.0f)",
 
-  "config.netheritehorsearmor.requires_restart": "§cChanging this will require a restart!"
+  "config.netheritehorsearmor.requires_restart": "§cChanging this will require a restart!",
+
+  "tooltip.netheritehorsearmor.enderite_mod_missing_0": "§c§lEnderite Mod§r§c is not installed.",
+  "tooltip.netheritehorsearmor.enderite_mod_missing_1": "§c§oItem may not work as intended."
 }

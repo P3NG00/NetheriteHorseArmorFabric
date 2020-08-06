@@ -22,9 +22,6 @@ dependencies {
 
     modApi "me.shedaniel.cloth:config-2:${project.cloth_config_version}"
     include "me.shedaniel.cloth:config-2:${project.cloth_config_version}"
-
-    modApi "com.github.p3ng00:p3utils:${project.p3_util_commit}"
-    include "com.github.p3ng00:p3utils:${project.p3_util_commit}"
 }
 
 processResources {
@@ -77,13 +74,5 @@ publishing {
     repositories {
         // uncomment to publish to the local maven
         // mavenLocal()
-    }
-}
-
-allprojects {
-    repositories {
-        maven {
-            url "https://jitpack.io"
-        }
     }
 }
