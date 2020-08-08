@@ -10,7 +10,7 @@ import net.minecraft.world.World;
 
 import java.util.List;
 
-import static com.p3ng00.netheritehorsearmor.Util.createTranslatableText;
+import static com.p3ng00.netheritehorsearmor.NetheriteHorseArmorMain.UTIL;
 
 public class HorseArmorItem extends net.minecraft.item.HorseArmorItem {
 
@@ -18,7 +18,7 @@ public class HorseArmorItem extends net.minecraft.item.HorseArmorItem {
 
     public HorseArmorItem(int bonus, String materialName) {
         super(bonus, null, new Settings().maxCount(1).group(ItemGroup.MISC).fireproof());
-        texture = new Identifier(NetheriteHorseArmorMain.MODID, String.format("textures/entity/horse/armor/horse_armor_%s.png", materialName));
+        texture = new Identifier(UTIL.getModId(), String.format("textures/entity/horse/armor/horse_armor_%s.png", materialName));
     }
 
     @Override
@@ -31,8 +31,8 @@ public class HorseArmorItem extends net.minecraft.item.HorseArmorItem {
 
         if (!NetheriteHorseArmorMain.isEnderiteModLoaded && asItem() == NetheriteHorseArmorMain.ENDERITE_HORSE_ARMOR) {
 
-            tooltip.add(createTranslatableText("tooltip", "enderite_mod_missing_0"));
-            tooltip.add(createTranslatableText("tooltip", "enderite_mod_missing_1"));
+            tooltip.add(UTIL.createTranslatableText("tooltip", "enderite_mod_missing_0"));
+            tooltip.add(UTIL.createTranslatableText("tooltip", "enderite_mod_missing_1"));
 
         }
 

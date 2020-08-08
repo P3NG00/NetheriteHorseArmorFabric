@@ -41,8 +41,8 @@ public abstract class HorseEntityMixin extends AnimalEntity {
                 } else if (item == ENDERITE_HORSE_ARMOR) {
 
                     // Enderite Horse Armor
-                    setOnFireFor = 5;
-                    damage = 1.5f;
+                    setOnFireFor = 7;
+                    damage = 1.8f;
 
                 }
 

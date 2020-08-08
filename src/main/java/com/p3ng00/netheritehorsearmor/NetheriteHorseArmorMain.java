@@ -8,19 +8,22 @@ import net.fabricmc.loader.api.FabricLoader;
 import net.minecraft.item.Item;
 import net.minecraft.loot.BinomialLootTableRange;
 import net.minecraft.loot.entry.ItemEntry;
-import org.apache.logging.log4j.LogManager;
+import net.minecraft.recipe.RecipeManager;
+import org.apache.logging.log4j.Level;
+
+import java.util.function.IntConsumer;
 
 import static com.p3ng00.netheritehorsearmor.Settings.*;
-import static com.p3ng00.netheritehorsearmor.Util.register;
+import static jdk.nashorn.internal.objects.NativeMath.log;
 
 public class NetheriteHorseArmorMain implements ModInitializer {
 
-    // Mod ID
-    public static final String MODID = "netheritehorsearmor";
+    // Util
+    public static P3Util UTIL;
 
-    // Netherite Horse Armor Item
-    public static final Item NETHERITE_HORSE_ARMOR = new HorseArmorItem(15, "netherite");
-    public static final Item ENDERITE_HORSE_ARMOR = new HorseArmorItem(20, "enderite");
+    // Items
+    public static Item NETHERITE_HORSE_ARMOR;
+    public static Item ENDERITE_HORSE_ARMOR;
 
     // Compatibility
     public static boolean isEnderiteModLoaded;
@@ -28,32 +31,45 @@ public class NetheriteHorseArmorMain implements ModInitializer {
     @Override
     public void onInitialize() {
 
-        Util.modId = MODID;
+        // Initialize Utilities
+        UTIL = new P3Util("Netherite Horse Armor", "netheritehorsearmor");
 
+        UTIL.log(Level.INFO, "Beginning initialization...");
+
+        // Get Compatibility
         isEnderiteModLoaded = FabricLoader.getInstance().isModLoaded("enderitemod");
 
-        // Register Item
-        register("netherite_horse_armor", NETHERITE_HORSE_ARMOR);
-        register("enderite_horse_armor", ENDERITE_HORSE_ARMOR);
+        // Create Items
+        NETHERITE_HORSE_ARMOR = new HorseArmorItem(15, "netherite");
+        ENDERITE_HORSE_ARMOR = new HorseArmorItem(20, "enderite");
 
-        if (!isEnderiteModLoaded) LogManager.getLogger().warn("'Enderite Mod' not installed. Ignore following errors relating to 'Enderite Mod'");
+        // Register Items
+        UTIL.register("netherite_horse_armor", NETHERITE_HORSE_ARMOR);
+        UTIL.register("enderite_horse_armor", ENDERITE_HORSE_ARMOR);
+
+        // Warn about possible errors if mod not installed
+        if (!isEnderiteModLoaded) log(Level.WARN, "'Enderite Mod' not installed. Ignore following errors relating to 'Enderite Mod'");
 
         // Add Netherite Horse Armor to loot tables...
         LootTableLoadingCallback.EVENT.register(((resourceManager, lootManager, identifier, fabricLootSupplierBuilder, lootTableSetter) -> {
 
             switch (identifier.toString()) {
 
-                case "minecraft:chests/bastion_treasure":   // Minecraft's Bastion Treasure
+                // Minecraft's Bastion Treasure
+                case "minecraft:chests/bastion_treasure":
                     fabricLootSupplierBuilder.withPool(FabricLootPoolBuilder.builder().rolls(BinomialLootTableRange.create(OPTION_BASTION_TREASURE_AMOUNT.get(), OPTION_BASTION_TREASURE_CHANCE.get())).withEntry(ItemEntry.builder(NETHERITE_HORSE_ARMOR).build()).build());
                     break;
 
-                case "minecraft:chests/ruined_portal":      // Minecraft's Ruined Portal
+                // Minecraft's Ruined Portal
+                case "minecraft:chests/ruined_portal":
                     fabricLootSupplierBuilder.withPool(FabricLootPoolBuilder.builder().rolls(BinomialLootTableRange.create(OPTION_RUINED_PORTAL_AMOUNT.get(), OPTION_RUINED_PORTAL_CHANCE.get())).withEntry(ItemEntry.builder(NETHERITE_HORSE_ARMOR).build()).build());
                     break;
 
             }
 
         }));
+
+        log(Level.INFO, "Finished initialization!");
 
     }
 

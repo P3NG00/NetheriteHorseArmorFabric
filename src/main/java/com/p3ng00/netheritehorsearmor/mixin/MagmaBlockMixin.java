@@ -23,25 +23,21 @@ public abstract class MagmaBlockMixin extends Block {
     @Override
     public void onSteppedOn(World world, BlockPos pos, Entity entity) {
 
-        if (!world.isClient) {
+        if (!entity.isFireImmune() && entity instanceof LivingEntity && !EnchantmentHelper.hasFrostWalker((LivingEntity)entity)) {
 
-            if (!entity.isFireImmune() && entity instanceof LivingEntity && !EnchantmentHelper.hasFrostWalker((LivingEntity)entity)) {
+            float damage = 1.0f;
 
-                float damage = 1.0f;
+            for (ItemStack itemStack : entity.getArmorItems()) {
 
-                for (ItemStack itemStack : entity.getArmorItems()) {
-
-                    if (NETHERITE_ARMOR_STAT_TABLE.containsKey(itemStack.getItem())) damage -= NETHERITE_ARMOR_STAT_TABLE.get(itemStack.getItem()) * 0.01;
-
-                }
-
-                entity.damage(DamageSource.HOT_FLOOR, damage);
+                if (NETHERITE_ARMOR_STAT_TABLE.containsKey(itemStack.getItem())) damage -= NETHERITE_ARMOR_STAT_TABLE.get(itemStack.getItem()) * 0.01;
 
             }
 
-            super.onSteppedOn(world, pos, entity);
+            entity.damage(DamageSource.HOT_FLOOR, damage);
 
         }
+
+        super.onSteppedOn(world, pos, entity);
 
     }
 }

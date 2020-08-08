@@ -41,3 +41,6 @@ v0.4.0
 
 v0.4.1
 + If the Enderite Mod is not installed, Enderite Horse Armor will have a tooltip under it
++ Added some debug messages to console
+* Small change to damage received from fire, lava, or magma blocks while wearing Netherite or Enderite Horse Armor
+- Removed unnecessary code
