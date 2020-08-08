@@ -8,10 +8,7 @@ import net.fabricmc.loader.api.FabricLoader;
 import net.minecraft.item.Item;
 import net.minecraft.loot.BinomialLootTableRange;
 import net.minecraft.loot.entry.ItemEntry;
-import net.minecraft.recipe.RecipeManager;
 import org.apache.logging.log4j.Level;
-
-import java.util.function.IntConsumer;
 
 import static com.p3ng00.netheritehorsearmor.Settings.*;
 import static jdk.nashorn.internal.objects.NativeMath.log;
