@@ -44,3 +44,6 @@ v0.4.1
 + Added some debug messages to console
 * Small change to damage received from fire, lava, or magma blocks while wearing Netherite or Enderite Horse Armor
 - Removed unnecessary code
+
+v0.4.2
++ Added translation for Simplified Chinese (zh_cn). Thanks Samekichi!

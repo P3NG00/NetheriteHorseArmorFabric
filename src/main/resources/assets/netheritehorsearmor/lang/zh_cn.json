@@ -3,7 +3,7 @@
   "item.netheritehorsearmor.enderite_horse_armor": "末地合金马铠",
   
   "config.netheritehorsearmor.title": "下界合金马铠 §7(Netherite Horse Armor)",
-  "config.netheritehorsearmor.category": "通用",
+  "config.netheritehorsearmor.category.general": "通用",
   "config.netheritehorsearmor.netherite_burn_resist_horse": "下界合金马铠会赋予马匹一定的抗火效果",
   "config.netheritehorsearmor.netherite_burn_resist_player": "下界合金马铠会赋予骑乘玩家一定的抗火效果",
   "config.netheritehorsearmor.bastion_treasure_amount": "堡垒遗迹战利品的宝藏产出数量 (1 - 5)",
@@ -11,6 +11,7 @@
   "config.netheritehorsearmor.ruined_portal_amount": "废弃传送门战利品的宝藏产出数量 (1 - 5)",
   "config.netheritehorsearmor.ruined_portal_chance": "废弃传送门战利品的宝藏产出概率 (0.0f - 1.0f)",
   "config.netheritehorsearmor.requires_restart": "§c需要重启游戏以生效!",
+
   "tooltip.netheritehorsearmor.enderite_mod_missing_0": "§c您尚未安装§l末地合金模组 (Enderite Mod)§r",
   "tooltip.netheritehorsearmor.enderite_mod_missing_1": "§c§o该物品可能无法按预期效果生效"
 }
