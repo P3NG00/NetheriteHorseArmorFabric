@@ -27,11 +27,10 @@ public abstract class MagmaBlockMixin extends Block {
 
             float damage = 1.0f;
 
-            for (ItemStack itemStack : entity.getArmorItems()) {
-
-                if (NETHERITE_ARMOR_STAT_TABLE.containsKey(itemStack.getItem())) damage -= NETHERITE_ARMOR_STAT_TABLE.get(itemStack.getItem()) * 0.01;
-
-            }
+            if (com.p3ng00.netheritehorsearmor.Settings.OPTION_NETHERITE_BURN_RESIST_PLAYER.get())
+                for (ItemStack itemStack : entity.getArmorItems())
+                    if (NETHERITE_ARMOR_STAT_TABLE.containsKey(itemStack.getItem()))
+                        damage -= NETHERITE_ARMOR_STAT_TABLE.get(itemStack.getItem()) * 0.01;
 
             entity.damage(DamageSource.HOT_FLOOR, damage);
 
@@ -40,4 +39,5 @@ public abstract class MagmaBlockMixin extends Block {
         super.onSteppedOn(world, pos, entity);
 
     }
+
 }

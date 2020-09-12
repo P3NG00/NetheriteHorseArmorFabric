@@ -1,5 +1,6 @@
 package com.p3ng00.netheritehorsearmor.mixin;
 
+import com.p3ng00.netheritehorsearmor.Settings;
 import net.minecraft.entity.EntityType;
 import net.minecraft.entity.LivingEntity;
 import net.minecraft.entity.damage.DamageSource;
@@ -24,11 +25,10 @@ public abstract class PlayerEntityMixin extends LivingEntity {
 
             int time = 0;
 
-            for (ItemStack itemStack : getArmorItems()) {
-
-                if (NETHERITE_ARMOR_STAT_TABLE.containsKey(itemStack.getItem())) time += NETHERITE_ARMOR_STAT_TABLE.get(itemStack.getItem());
-
-            }
+            if (Settings.OPTION_NETHERITE_BURN_RESIST_PLAYER.get())
+                for (ItemStack itemStack : getArmorItems())
+                    if (NETHERITE_ARMOR_STAT_TABLE.containsKey(itemStack.getItem()))
+                        time += NETHERITE_ARMOR_STAT_TABLE.get(itemStack.getItem());
 
             setOnFireFor(time == 0 ? 15 : 40 / time);
             damage(DamageSource.LAVA, time == 0 ? 4.0f : 10.0f / time);

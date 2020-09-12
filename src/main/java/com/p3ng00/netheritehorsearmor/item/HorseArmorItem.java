@@ -1,6 +1,6 @@
 package com.p3ng00.netheritehorsearmor.item;
 
-import com.p3ng00.netheritehorsearmor.NetheriteHorseArmorMain;
+import com.p3ng00.netheritehorsearmor.NetheriteHorseArmor;
 import net.minecraft.client.item.TooltipContext;
 import net.minecraft.item.ItemGroup;
 import net.minecraft.item.ItemStack;
@@ -10,7 +10,7 @@ import net.minecraft.world.World;
 
 import java.util.List;
 
-import static com.p3ng00.netheritehorsearmor.NetheriteHorseArmorMain.UTIL;
+import static com.p3ng00.netheritehorsearmor.NetheriteHorseArmor.UTIL;
 
 public class HorseArmorItem extends net.minecraft.item.HorseArmorItem {
 
@@ -29,7 +29,7 @@ public class HorseArmorItem extends net.minecraft.item.HorseArmorItem {
     @Override
     public void appendTooltip(ItemStack stack, World world, List<Text> tooltip, TooltipContext context) {
 
-        if (!NetheriteHorseArmorMain.isEnderiteModLoaded && asItem() == NetheriteHorseArmorMain.ENDERITE_HORSE_ARMOR) {
+        if (!NetheriteHorseArmor.isEnderiteModLoaded && asItem() == NetheriteHorseArmor.ENDERITE_HORSE_ARMOR) {
 
             tooltip.add(UTIL.createTranslatableText("tooltip", "enderite_mod_missing_0"));
             tooltip.add(UTIL.createTranslatableText("tooltip", "enderite_mod_missing_1"));
@@ -37,4 +37,5 @@ public class HorseArmorItem extends net.minecraft.item.HorseArmorItem {
         }
 
     }
+
 }

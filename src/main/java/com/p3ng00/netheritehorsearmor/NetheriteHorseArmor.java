@@ -13,7 +13,7 @@ import org.apache.logging.log4j.Level;
 import static com.p3ng00.netheritehorsearmor.Settings.*;
 import static jdk.nashorn.internal.objects.NativeMath.log;
 
-public class NetheriteHorseArmorMain implements ModInitializer {
+public class NetheriteHorseArmor implements ModInitializer {
 
     // Util
     public static P3Util UTIL;
@@ -45,7 +45,8 @@ public class NetheriteHorseArmorMain implements ModInitializer {
         UTIL.register("enderite_horse_armor", ENDERITE_HORSE_ARMOR);
 
         // Warn about possible errors if mod not installed
-        if (!isEnderiteModLoaded) log(Level.WARN, "'Enderite Mod' not installed. Ignore following errors relating to 'Enderite Mod'");
+        if (!isEnderiteModLoaded)
+            log(Level.WARN, "'Enderite Mod' not installed. Ignore following errors relating to 'Enderite Mod'");
 
         // Add Netherite Horse Armor to loot tables...
         LootTableLoadingCallback.EVENT.register(((resourceManager, lootManager, identifier, fabricLootSupplierBuilder, lootTableSetter) -> {

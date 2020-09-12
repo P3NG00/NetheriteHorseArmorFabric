@@ -39,19 +39,12 @@ public class P3Util {
 
         Identifier id = new Identifier(modId, name);
 
-        if (item instanceof Item) {
-
+        if (item instanceof Item)
             Registry.register(Registry.ITEM, id, (Item)item);
-
-        } else if (item instanceof Block) {
-
+        else if (item instanceof Block)
             Registry.register(Registry.BLOCK, id, (Block)item);
-
-        } else {
-
+        else
             throw new IllegalArgumentException("Can only use this method for ITEMs or BLOCKs");
-
-        }
 
     }
 
@@ -80,20 +73,17 @@ public class P3Util {
 
                 if (!FILE.exists()) {
 
-                    if (FILE.createNewFile()) {
-
+                    if (FILE.createNewFile())
                         save();
-
-                    } else {
-
+                    else
                         throw new IOException();
-
-                    }
 
                 } else {
 
                     PROPERTIES.load(new FileReader(FILE));
-                    for (Option<?> option : options) option.load(PROPERTIES);
+
+                    for (Option<?> option : options)
+                        option.load(PROPERTIES);
 
                 }
 
@@ -133,30 +123,30 @@ public class P3Util {
 
     public static class Option<E> {
 
-        private final String path;
-        private final Function<String, E> parser;
-        private final E defaultValue;
+        private final String PATH;
+        private final Function<String, E> PARSER;
+        private final E DEFAULT_VALUE;
         private E value;
 
         public Option(String propertyName, E defaultValue, Function<String, E> parser) {
-            path = propertyName;
-            this.parser = parser;
-            this.defaultValue = defaultValue;
+            PATH = propertyName;
+            this.PARSER = parser;
+            this.DEFAULT_VALUE = defaultValue;
             value = defaultValue;
         }
 
         // To load setting's saved value
         public final void load(Properties properties) {
-            value = parser.apply(properties.getProperty(path));
+            value = PARSER.apply(properties.getProperty(PATH));
         }
 
         // To get setting's default value
         public final E getDefaultValue() {
-            return defaultValue;
+            return DEFAULT_VALUE;
         }
 
         public final String getPath() {
-            return path;
+            return PATH;
         }
 
         public void set(E value) {

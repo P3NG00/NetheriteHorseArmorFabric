@@ -11,17 +11,10 @@ version = "${project.mod_version}-${project.minecraft_version}"
 group = project.maven_group
 
 dependencies {
-
     minecraft "com.mojang:minecraft:${project.minecraft_version}"
     mappings "net.fabricmc:yarn:${project.yarn_mappings}:v2"
     modImplementation "net.fabricmc:fabric-loader:${project.loader_version}"
     modImplementation "net.fabricmc.fabric-api:fabric-api:${project.fabric_version}"
-
-    modImplementation "io.github.prospector:modmenu:${project.mod_menu_version}"
-    modRuntime "io.github.prospector:modmenu:${project.mod_menu_version}"
-
-    modApi "me.shedaniel.cloth:config-2:${project.cloth_config_version}"
-    include "me.shedaniel.cloth:config-2:${project.cloth_config_version}"
 }
 
 processResources {
