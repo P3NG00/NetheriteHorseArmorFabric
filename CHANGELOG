@@ -47,3 +47,7 @@ v0.4.1
 
 v0.4.2
 + Added translation for Simplified Chinese (zh_cn). Thanks Samekichi!
+
+v0.4.3
+* Updated to 1.16.3
+* Minor tweaks

@@ -8,8 +8,7 @@
     "P3NG00"
   ],
   "contributors": [
-    "ConfusedGryphon (Armor & Item Textures)",
-    "Samekichi (Simplified Chinese Translation)"
+    "ConfusedGryphon (Armor & Item Textures)"
   ],
   "contact": {
     "homepage": "https://www.curseforge.com/minecraft/mc-mods/netherite-horse-armor",
@@ -24,22 +23,19 @@
       "com.p3ng00.netheritehorsearmor.NetheriteHorseArmor"
     ],
     "modmenu": [
-      "com.p3ng00.netheritehorsearmor.NetheriteHorseArmor"
+      "com.p3ng00.netheritehorsearmor.NetheriteHorseArmorModMenu"
     ]
   },
   "mixins": [
     "netheritehorsearmor.mixins.json"
   ],
   "depends": {
-    "fabricloader": ">=0.8.8",
+    "fabricloader": ">=0.9.0",
     "fabric": "*",
     "minecraft": "1.16.x"
   },
   "recommends": {
     "enderitemod": ">=1.0.0"
-  },
-  "suggests": {
-    "modmenu": ">=1.14.5+build.30"
   },
   "custom": {
     "modupdater": {
