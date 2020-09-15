@@ -11,7 +11,7 @@ import net.minecraft.util.math.BlockPos;
 import net.minecraft.world.World;
 import org.spongepowered.asm.mixin.Mixin;
 
-import static com.p3ng00.netheritehorsearmor.Settings.NETHERITE_ARMOR_STAT_TABLE;
+import static com.p3ng00.netheritehorsearmor.settings.Settings.NETHERITE_ARMOR_STAT_TABLE;
 
 @Mixin(MagmaBlock.class)
 public abstract class MagmaBlockMixin extends Block {

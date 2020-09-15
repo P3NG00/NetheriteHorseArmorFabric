@@ -8,7 +8,7 @@ import net.minecraft.item.ItemStack;
 import net.minecraft.world.World;
 import org.spongepowered.asm.mixin.Mixin;
 
-import static com.p3ng00.netheritehorsearmor.Settings.NETHERITE_ARMOR_STAT_TABLE;
+import static com.p3ng00.netheritehorsearmor.settings.Settings.NETHERITE_ARMOR_STAT_TABLE;
 
 @Mixin(PlayerEntity.class)
 public abstract class PlayerEntityMixin extends LivingEntity {

@@ -9,8 +9,8 @@ import net.minecraft.item.ItemStack;
 import net.minecraft.world.World;
 import org.spongepowered.asm.mixin.Mixin;
 
-import static com.p3ng00.netheritehorsearmor.NetheriteHorseArmorMain.ENDERITE_HORSE_ARMOR;
-import static com.p3ng00.netheritehorsearmor.NetheriteHorseArmorMain.NETHERITE_HORSE_ARMOR;
+import static com.p3ng00.netheritehorsearmor.NetheriteHorseArmor.ENDERITE_HORSE_ARMOR;
+import static com.p3ng00.netheritehorsearmor.NetheriteHorseArmor.NETHERITE_HORSE_ARMOR;
 
 @Mixin(HorseBaseEntity.class)
 public abstract class HorseEntityMixin extends AnimalEntity {

@@ -1,13 +1,10 @@
-package com.p3ng00.netheritehorsearmor;
+package com.p3ng00.netheritehorsearmor.settings;
 
-import com.p3ng00.netheritehorsearmor.P3Util.Option;
 import net.minecraft.item.Item;
 import net.minecraft.item.Items;
 
 import java.util.HashMap;
 import java.util.Map;
-
-import static com.p3ng00.netheritehorsearmor.NetheriteHorseArmorMain.UTIL;
 
 public class Settings {
 
@@ -21,7 +18,7 @@ public class Settings {
 
     public static final Option<?>[] OPTIONS = {OPTION_NETHERITE_BURN_RESIST_HORSE, OPTION_NETHERITE_BURN_RESIST_PLAYER, OPTION_BASTION_TREASURE_AMOUNT, OPTION_BASTION_TREASURE_CHANCE, OPTION_RUINED_PORTAL_AMOUNT, OPTION_RUINED_PORTAL_CHANCE};
 
-    public static final P3Util.Config CONFIG = new P3Util.Config(UTIL.getModName(), "netherite_horse_armor.txt", OPTIONS);
+    public static final Config CONFIG = new Config("Netherite Horse Armor", "netherite_horse_armor.txt", OPTIONS);
 
     public static final Map<Item, Integer> NETHERITE_ARMOR_STAT_TABLE = new HashMap<>();
 
