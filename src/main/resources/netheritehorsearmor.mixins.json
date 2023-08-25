@@ -2,7 +2,7 @@
   "required": true,
   "minVersion": "0.8",
   "package": "com.p3ng00.netheritehorsearmor.mixin",
-  "compatibilityLevel": "JAVA_8",
+  "compatibilityLevel": "JAVA_17",
   "mixins": [
     "HorseEntityMixin",
     "MagmaBlockMixin",

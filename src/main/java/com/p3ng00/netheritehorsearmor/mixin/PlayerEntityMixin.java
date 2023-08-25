@@ -1,11 +1,11 @@
 package com.p3ng00.netheritehorsearmor.mixin;
 
-import com.p3ng00.netheritehorsearmor.Settings;
+import com.p3ng00.netheritehorsearmor.settings.Settings;
 import net.minecraft.entity.EntityType;
 import net.minecraft.entity.LivingEntity;
-import net.minecraft.entity.damage.DamageSource;
 import net.minecraft.entity.player.PlayerEntity;
 import net.minecraft.item.ItemStack;
+import net.minecraft.sound.SoundEvents;
 import net.minecraft.world.World;
 import org.spongepowered.asm.mixin.Mixin;
 
@@ -19,20 +19,25 @@ public abstract class PlayerEntityMixin extends LivingEntity {
     }
 
     @Override
-    protected void setOnFireFromLava() {
+    public void setOnFireFromLava() {
 
         if (!this.isFireImmune()) {
 
             int time = 0;
 
-            if (Settings.OPTION_NETHERITE_BURN_RESIST_PLAYER.get())
-                for (ItemStack itemStack : getArmorItems())
-                    if (NETHERITE_ARMOR_STAT_TABLE.containsKey(itemStack.getItem()))
+            if (Settings.OPTION_NETHERITE_BURN_RESIST_PLAYER.get()) {
+
+                for (ItemStack itemStack : getArmorItems()) {
+                    if (NETHERITE_ARMOR_STAT_TABLE.containsKey(itemStack.getItem())) {
                         time += NETHERITE_ARMOR_STAT_TABLE.get(itemStack.getItem());
+                    }
+                }
+            }
 
-            setOnFireFor(time == 0 ? 15 : 40 / time);
-            damage(DamageSource.LAVA, time == 0 ? 4.0f : 10.0f / time);
-
+            this.setOnFireFor(time == 0 ? 15 : 40 / time);
+            if (this.damage(this.getDamageSources().lava(), time == 0 ? 4.0f : 10.0f / time)) {
+                this.playSound(SoundEvents.ENTITY_GENERIC_BURN, 0.4f, 2.0f + this.random.nextFloat() * 0.4f);
+            }
         }
 
     }

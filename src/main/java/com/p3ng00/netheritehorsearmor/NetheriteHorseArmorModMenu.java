@@ -1,10 +1,10 @@
 package com.p3ng00.netheritehorsearmor;
 
-import io.github.prospector.modmenu.api.ConfigScreenFactory;
-import io.github.prospector.modmenu.api.ModMenuApi;
+import com.terraformersmc.modmenu.api.ConfigScreenFactory;
+import com.terraformersmc.modmenu.api.ModMenuApi;
 import me.shedaniel.clothconfig2.api.ConfigBuilder;
 import me.shedaniel.clothconfig2.api.ConfigCategory;
-import net.minecraft.text.TranslatableText;
+import net.minecraft.text.MutableText;
 
 import static com.p3ng00.netheritehorsearmor.NetheriteHorseArmor.createTranslatableText;
 import static com.p3ng00.netheritehorsearmor.settings.Settings.*;
@@ -18,7 +18,7 @@ public class NetheriteHorseArmorModMenu implements ModMenuApi {
 
             ConfigBuilder builder = ConfigBuilder.create().setParentScreen(parent).setTitle(translatableText("title")).setSavingRunnable(CONFIG::save).setTransparentBackground(true);
             ConfigCategory category = builder.getOrCreateCategory(translatableText("category.general"));
-            TranslatableText requiresRestart = translatableText("requires_restart");
+            MutableText requiresRestart = translatableText("requires_restart");
 
             category.addEntry(builder.entryBuilder().startBooleanToggle(translatableText("netherite_burn_resist_horse"), OPTION_NETHERITE_BURN_RESIST_HORSE.get()).setSaveConsumer(OPTION_NETHERITE_BURN_RESIST_HORSE::set).setDefaultValue(OPTION_NETHERITE_BURN_RESIST_HORSE::getDefaultValue).build());
             category.addEntry(builder.entryBuilder().startBooleanToggle(translatableText("netherite_burn_resist_player"), OPTION_NETHERITE_BURN_RESIST_PLAYER.get()).setSaveConsumer(OPTION_NETHERITE_BURN_RESIST_PLAYER::set).setDefaultValue(OPTION_NETHERITE_BURN_RESIST_PLAYER::getDefaultValue).build());
@@ -33,7 +33,7 @@ public class NetheriteHorseArmorModMenu implements ModMenuApi {
 
     }
 
-    private TranslatableText translatableText(String path) {
+    private MutableText translatableText(String path) {
         return createTranslatableText("category", path);
     }
 

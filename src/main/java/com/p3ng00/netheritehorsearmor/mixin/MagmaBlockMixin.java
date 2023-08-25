@@ -1,11 +1,11 @@
 package com.p3ng00.netheritehorsearmor.mixin;
 
 import net.minecraft.block.Block;
+import net.minecraft.block.BlockState;
 import net.minecraft.block.MagmaBlock;
 import net.minecraft.enchantment.EnchantmentHelper;
 import net.minecraft.entity.Entity;
 import net.minecraft.entity.LivingEntity;
-import net.minecraft.entity.damage.DamageSource;
 import net.minecraft.item.ItemStack;
 import net.minecraft.util.math.BlockPos;
 import net.minecraft.world.World;
@@ -21,23 +21,25 @@ public abstract class MagmaBlockMixin extends Block {
     }
 
     @Override
-    public void onSteppedOn(World world, BlockPos pos, Entity entity) {
+    public void onSteppedOn(World world, BlockPos pos, BlockState state, Entity entity) {
 
-        if (!entity.isFireImmune() && entity instanceof LivingEntity && !EnchantmentHelper.hasFrostWalker((LivingEntity)entity)) {
+        if (!entity.bypassesSteppingEffects() && entity instanceof LivingEntity && !EnchantmentHelper.hasFrostWalker((LivingEntity)entity)) {
 
             float damage = 1.0f;
 
-            if (com.p3ng00.netheritehorsearmor.Settings.OPTION_NETHERITE_BURN_RESIST_PLAYER.get())
-                for (ItemStack itemStack : entity.getArmorItems())
-                    if (NETHERITE_ARMOR_STAT_TABLE.containsKey(itemStack.getItem()))
-                        damage -= NETHERITE_ARMOR_STAT_TABLE.get(itemStack.getItem()) * 0.01;
+            if (com.p3ng00.netheritehorsearmor.settings.Settings.OPTION_NETHERITE_BURN_RESIST_PLAYER.get()) {
 
-            entity.damage(DamageSource.HOT_FLOOR, damage);
+                for (ItemStack itemStack : entity.getArmorItems()) {
+                    if (NETHERITE_ARMOR_STAT_TABLE.containsKey(itemStack.getItem())) {
+                        damage -= NETHERITE_ARMOR_STAT_TABLE.get(itemStack.getItem()) * 0.01f;
+                    }
+                }
+            }
 
+            entity.damage(world.getDamageSources().hotFloor(), damage);
         }
 
-        super.onSteppedOn(world, pos, entity);
-
+        super.onSteppedOn(world, pos, state, entity);
     }
 
 }

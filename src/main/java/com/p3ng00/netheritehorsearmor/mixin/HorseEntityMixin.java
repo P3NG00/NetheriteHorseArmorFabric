@@ -1,19 +1,19 @@
 package com.p3ng00.netheritehorsearmor.mixin;
 
-import com.p3ng00.netheritehorsearmor.Settings;
+import com.p3ng00.netheritehorsearmor.settings.Settings;
 import net.minecraft.entity.EntityType;
-import net.minecraft.entity.damage.DamageSource;
 import net.minecraft.entity.passive.AnimalEntity;
-import net.minecraft.entity.passive.HorseBaseEntity;
+import net.minecraft.entity.passive.HorseEntity;
 import net.minecraft.item.Item;
 import net.minecraft.item.ItemStack;
+import net.minecraft.sound.SoundEvents;
 import net.minecraft.world.World;
 import org.spongepowered.asm.mixin.Mixin;
 
 import static com.p3ng00.netheritehorsearmor.NetheriteHorseArmor.ENDERITE_HORSE_ARMOR;
 import static com.p3ng00.netheritehorsearmor.NetheriteHorseArmor.NETHERITE_HORSE_ARMOR;
 
-@Mixin(HorseBaseEntity.class)
+@Mixin(HorseEntity.class)
 public abstract class HorseEntityMixin extends AnimalEntity {
 
     protected HorseEntityMixin(EntityType<? extends AnimalEntity> entityType, World world) {
@@ -21,11 +21,10 @@ public abstract class HorseEntityMixin extends AnimalEntity {
     }
 
     @Override
-    protected void setOnFireFromLava() {
+    public void setOnFireFromLava() {
 
         if (!this.isFireImmune()) {
 
-            Item item;
             int setOnFireFor = 15;
             float damage = 4.0f;
 
@@ -33,7 +32,7 @@ public abstract class HorseEntityMixin extends AnimalEntity {
 
                 for (ItemStack itemStack : getArmorItems()) {
 
-                    item = itemStack.getItem();
+                    Item item = itemStack.getItem();
 
                     if (item == NETHERITE_HORSE_ARMOR) {
 
@@ -54,7 +53,9 @@ public abstract class HorseEntityMixin extends AnimalEntity {
             }
 
             setOnFireFor(setOnFireFor);
-            damage(DamageSource.LAVA, damage);
+            if (this.damage(this.getDamageSources().lava(), damage)) {
+                this.playSound(SoundEvents.ENTITY_GENERIC_BURN, 0.4f, 2.0f + this.random.nextFloat() * 0.4f);
+            }
 
         }
 
