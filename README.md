@@ -2,9 +2,9 @@ Isn't there something we're missing with the new Netherite and whatnot?
 
 # Netherite Horse Armor
 
-[<h2><u>Downloads</u></h2>](https://modrinth.com/mod/netherite_horse_armor)
+[<h2>Downloads</h2>](https://modrinth.com/mod/netherite_horse_armor)
 
-[<h3>**ModRinth**</h3>](https://modrinth.com/mod/netherite_horse_armor)
+[**ModRinth**](https://modrinth.com/mod/netherite_horse_armor)
 
 [CurseForge](https://www.curseforge.com/minecraft/mc-mods/netherite-horse-armor)
 
