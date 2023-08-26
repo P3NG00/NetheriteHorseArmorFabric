@@ -2,24 +2,28 @@ Isn't there something we're missing with the new Netherite and whatnot?
 
 # Netherite Horse Armor
 
-[<h3>Downloads</h3>](https://www.curseforge.com/minecraft/mc-mods/netherite-horse-armor/files)
+[<h2>Downloads</h2>](https://modrinth.com/mod/netherite_horse_armor)
 
-[CurseForge (Mod Page)](https://www.curseforge.com/minecraft/mc-mods/netherite-horse-armor)
+[**ModRinth**](https://modrinth.com/mod/netherite_horse_armor)
+
+[CurseForge](https://www.curseforge.com/minecraft/mc-mods/netherite-horse-armor)
+
+<br>
 
 [GitHub (Source Code)](https://github.com/P3NG00/NetheriteHorseArmorFabric)
 
 [<i>Report an Issue</i>](https://github.com/P3NG00/NetheriteHorseArmorFabric/issues)
 
-![Beautiful Stallion](https://i.imgur.com/VownWLt.png)
+![Beautiful Stallion](/pics/NetheriteHorseArmor_Overworld.png)
 
-![Crafting Recipe](https://i.imgur.com/h01ZEhS.png)
+![Crafting Recipe](/pics/SmithingRecipe.png)
 
-![Nether Screenshot](https://i.imgur.com/uLpK7I9.png)
+![Nether Screenshot](/pics/NetheriteHorseArmor_Nether.png)
 
-![Enderite Mod Support!](https://i.imgur.com/mH91T4b.png)
+![Enderite Mod Support!](/pics/EnderiteHorseArmor.png)
 
 ## MIT License
-Copyright (c) 2020 Bryant Finnern
+Copyright (c) 2023 Bryant Finnern
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
