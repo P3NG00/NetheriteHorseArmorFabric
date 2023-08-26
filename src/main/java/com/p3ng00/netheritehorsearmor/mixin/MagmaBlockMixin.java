@@ -6,6 +6,7 @@ import net.minecraft.block.MagmaBlock;
 import net.minecraft.enchantment.EnchantmentHelper;
 import net.minecraft.entity.Entity;
 import net.minecraft.entity.LivingEntity;
+import net.minecraft.entity.damage.DamageSource;
 import net.minecraft.item.ItemStack;
 import net.minecraft.util.math.BlockPos;
 import net.minecraft.world.World;
@@ -36,7 +37,7 @@ public abstract class MagmaBlockMixin extends Block {
                 }
             }
 
-            entity.damage(world.getDamageSources().hotFloor(), damage);
+            entity.damage(DamageSource.HOT_FLOOR, damage);
         }
 
         super.onSteppedOn(world, pos, state, entity);

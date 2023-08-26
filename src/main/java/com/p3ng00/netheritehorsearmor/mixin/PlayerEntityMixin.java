@@ -3,6 +3,7 @@ package com.p3ng00.netheritehorsearmor.mixin;
 import com.p3ng00.netheritehorsearmor.settings.Settings;
 import net.minecraft.entity.EntityType;
 import net.minecraft.entity.LivingEntity;
+import net.minecraft.entity.damage.DamageSource;
 import net.minecraft.entity.player.PlayerEntity;
 import net.minecraft.item.ItemStack;
 import net.minecraft.sound.SoundEvents;
@@ -35,7 +36,7 @@ public abstract class PlayerEntityMixin extends LivingEntity {
             }
 
             this.setOnFireFor(time == 0 ? 15 : 40 / time);
-            if (this.damage(this.getDamageSources().lava(), time == 0 ? 4.0f : 10.0f / time)) {
+            if (this.damage(DamageSource.LAVA, time == 0 ? 4.0f : 10.0f / time)) {
                 this.playSound(SoundEvents.ENTITY_GENERIC_BURN, 0.4f, 2.0f + this.random.nextFloat() * 0.4f);
             }
         }

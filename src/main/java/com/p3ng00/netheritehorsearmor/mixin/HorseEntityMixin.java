@@ -2,6 +2,7 @@ package com.p3ng00.netheritehorsearmor.mixin;
 
 import com.p3ng00.netheritehorsearmor.settings.Settings;
 import net.minecraft.entity.EntityType;
+import net.minecraft.entity.damage.DamageSource;
 import net.minecraft.entity.passive.AnimalEntity;
 import net.minecraft.entity.passive.HorseEntity;
 import net.minecraft.item.Item;
@@ -53,7 +54,7 @@ public abstract class HorseEntityMixin extends AnimalEntity {
             }
 
             setOnFireFor(setOnFireFor);
-            if (this.damage(this.getDamageSources().lava(), damage)) {
+            if (this.damage(DamageSource.LAVA, damage)) {
                 this.playSound(SoundEvents.ENTITY_GENERIC_BURN, 0.4f, 2.0f + this.random.nextFloat() * 0.4f);
             }
 
