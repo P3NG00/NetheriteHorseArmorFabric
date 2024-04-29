@@ -1,0 +1,17 @@
+{
+  "item.netheritehorsearmor.netherite_horse_armor": "Armadura de caballo de netherita",
+  "item.netheritehorsearmor.enderite_horse_armor": "Armadura de caballo de enderita",
+
+  "category.netheritehorsearmor.title": "Armadura de caballo de netherita",
+  "category.netheritehorsearmor.category.general": "General",
+  "category.netheritehorsearmor.netherite_burn_resist_horse": "La armadura de caballo de netherita proporciona resistencia al fuego",
+  "category.netheritehorsearmor.netherite_burn_resist_player": "La armadura de netherita proporciona resistencia al fuego al jugador",
+  "category.netheritehorsearmor.bastion_treasure_amount": "Cantidad de tesoros de bastión (1 - 5)",
+  "category.netheritehorsearmor.bastion_treasure_chance": "Probabilidad de tesoros de bastión (0.0f - 1.0f)",
+  "category.netheritehorsearmor.ruined_portal_amount": "Cantidad de portales en ruinas (1 - 5)",
+  "category.netheritehorsearmor.ruined_portal_chance": "Probabilidad de portales en ruinas (0.0f - 1.0f)",
+  "category.netheritehorsearmor.requires_restart": "§c¡Cambiar esto requerirá reiniciar el juego!",
+
+  "tooltip.netheritehorsearmor.enderite_mod_missing_0": "§c§lMod de Enderita§r§c no está instalado.",
+  "tooltip.netheritehorsearmor.enderite_mod_missing_1": "§c§oEs posible que el objeto no funcione como se espera."
+}
