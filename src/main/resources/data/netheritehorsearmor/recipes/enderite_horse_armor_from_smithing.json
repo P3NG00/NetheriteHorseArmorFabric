@@ -1,5 +1,5 @@
 {
-  "type": "minecraft:smithing",
+  "type": "minecraft:smithing_transform",
   "base": {
     "item": "netheritehorsearmor:netherite_horse_armor"
   },
@@ -8,5 +8,8 @@
   },
   "result": {
     "item": "netheritehorsearmor:enderite_horse_armor"
+  },
+  "template": {
+    "item": "enderitemod:enderite_upgrade_smithing_template"
   }
 }
